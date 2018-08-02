@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Plateforme pour les amateurs de Nutella</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'catalogue/vendor/bootstrap/css/bootstrap.min.css' %}">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" type="text/css" href="{% static 'catalogue/vendor/font-awesome/css/font-awesome.min.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="{% static 'catalogue/vendor/magnific-popup/magnific-popup.css' %}">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{% static 'catalogue/css/creative.css' %}">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a href="{% url 'acceuil' %}"><img class="img-fluid" src="{% static 'catalogue/img/logo_pur_beurre_classique.png' %}" alt="" width="30" height="30"></a>
+        <a class="navbar-brand js-scroll-trigger" href="{% url 'acceuil' %}">&nbsp;Pur Beurre</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a>{% include 'catalogue/search_tool.html' %}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{% url 'catalogue:listing' %}">Mon compte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{% url 'catalogue:listing' %}">Mes aliments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{% url 'catalogue:listing' %}">Déconnexion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    {% block header %}{% endblock %}
+
+    {% block content %}{% endblock %}
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-center">
+            <a class="btn btn-light btn-xl sr-button" href="https://docs.google.com/document/d/1wOSDUdCN5QV4lSXIQhDFFk_bmDXrEU72qMrmIMxJWYY/" target=_blank>Mentions légales</a>
+          </div>
+          <div class="col-lg-4 mx-auto text-center">
+            <a class="btn btn-light btn-xl sr-button" href="https://github.com/cenotapHe/Plateforme_Projet8" target=_blank>Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'catalogue/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'catalogue/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'catalogue/vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'catalogue/vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{% static 'catalogue/vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'catalogue/js/creative.min.js' %}"></script>
+
+  </body>
+
+</html>

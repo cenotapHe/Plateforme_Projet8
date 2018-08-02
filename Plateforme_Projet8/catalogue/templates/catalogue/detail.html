@@ -1,0 +1,52 @@
+{% extends 'catalogue/base.html' %}
+
+{% load static %}
+
+{% block header %}
+
+  <style>
+  header {
+    background-image: url("{{ thumbnail }}");
+    }
+  </style>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>{{ product_name }}</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-white mb-5">{{ product_description }}</p>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-white mb-5">
+
+              {% if product_nutriscore == 1 %}
+                <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/A.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
+              {% elif product_nutriscore == 2 %}
+                <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/B.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
+              {% elif product_nutriscore == 3 %}
+                <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/C.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
+              {% elif product_nutriscore == 4 %}
+                <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/D.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
+              {% else %}
+                <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/E.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
+              {% endif %}
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+{% endblock %}
+
+{% block content %}
+
+  {% include 'catalogue/list.html' with list_name='Vous pouvez remplacer cet aliment par :' %}
+
+{% endblock %}
