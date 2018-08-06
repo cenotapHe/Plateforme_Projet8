@@ -12,4 +12,6 @@ class Product(models.Model):
 	category = models.ForeignKey(Category, on_delete=models.CASCADE)
 	description = models.CharField(max_length=1000)
 	nutriscore = models.IntegerField(null=False)
-	picture = models.URLField()
+	picture = models.URLField(null=False)
+	nutrition = models.URLField(null=False)
+	url_off = models.URLField(null=False)

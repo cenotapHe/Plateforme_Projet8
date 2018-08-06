@@ -8,6 +8,8 @@ from django.shortcuts import render, get_object_or_404
 
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
+
+
 def index(request):
 	
 	products = Product.objects.filter()[:12]
@@ -22,8 +24,8 @@ def index(request):
 
 
 def listing(request):
-	products_list = Product.objects.filter()
-	paginator = Paginator(products_list, 4)
+	products_list = Product.objects.filter().order_by('name')
+	paginator = Paginator(products_list, 12)
 	page = request.GET.get('page')
 	try:
 		products = paginator.page(page)
@@ -54,9 +56,9 @@ def detail(request, product_id):
 		if count != 0:
 			nutri_list.append(count)
 
-	message = "Malheureusement, ou bienheureusement, ce produit est le meilleur dans sa catégorie. Donc pas besoin de le remplacer."
+	message = "Malheureusement, ou bienheureusement selon le point de vue, ce produit est le meilleur dans sa catégorie. Donc pas besoin de le remplacer."
 
-	products = Product.objects.filter(category_id=product.category_id).filter(nutriscore__in=nutri_list).order_by('nutriscore')
+	products = Product.objects.filter(category_id=product.category_id).filter(nutriscore__in=nutri_list).order_by('nutriscore')[:12]
 
 	context = {
 		'message': message,
@@ -76,7 +78,7 @@ def detail(request, product_id):
 def search(request):
     query = request.GET.get('query')
     if not query:
-        products = Product.objects.all()
+        products = Product.objects.all().order_by('?')[:12]
     else:
         products = Product.objects.filter(name__icontains=query)
 
@@ -85,23 +87,12 @@ def search(request):
     if not products.exists():
     	products = Product.objects.filter(category__name__icontains=query)
 
-    paginator = Paginator(products, 4)
-    page = request.GET.get('page')
-
-    try:
-    	products = paginator.page(page)
-    except PageNotAnInteger:
-    	products = paginator.page(1)
-    except EmptyPage:
-    	products = paginator.page(paginator.num_pages)
-
 
     message = "Malheureusement nous n'avons trouvé aucun article correspondant à votre requête."
     name = "Résultats pour la requête %s"%query
     context = {
     	'message': message,
     	'products': products,
-    	'paginate': True,
     	'categorys': categorys,
     	'name': name
     }
