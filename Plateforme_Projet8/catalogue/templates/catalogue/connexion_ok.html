@@ -1,0 +1,19 @@
+{% load static %}
+
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p><font color='{{ color }}'>Vous êtes connecté, <strong>{{ user.username }}</strong> !</font></button>
+        </p>
+        <p>avec l'adresse mail : {{ user.email }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12 text-center">
+    <div class="service-box mt-5 mx-auto">
+      <img class="img-fluid" src="{% static 'catalogue/img/remy_authentificate.jpg' %}" alt="" width="450" height="450">
+    </div>
+  </div>
+</section>

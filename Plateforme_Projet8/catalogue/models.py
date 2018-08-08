@@ -1,5 +1,6 @@
 from django.db import models
 
+from django.contrib.auth.models import User
 
 
 class Category(models.Model):
@@ -15,3 +16,10 @@ class Product(models.Model):
 	picture = models.URLField(null=False)
 	nutrition = models.URLField(null=False)
 	url_off = models.URLField(null=False)
+
+
+
+class Association(models.Model):
+	asso_user = models.IntegerField(null=False)
+	asso_product = models.IntegerField(null=False)
+	asso_product_sub = models.IntegerField(null=False)

@@ -22,11 +22,11 @@
         </div>
     </section>
 {% else %}
-    
+    <section>
     <div class="container">
         <div class="row">   
             {% for product in products %}
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
                         <div class="testtest">
                             <a href="{% url 'catalogue:detail' product_id=product.id %}">
@@ -51,11 +51,25 @@
                                 <p class="nutriscore_title"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="red">{{ product.name }}</font></a></p>
                             {% endif %}
 
-                            
 
-                        </div>
+                    {% if user.is_authenticated %}
+                        {% if list_name == 'Vous pouvez remplacer cet aliment par :' %}
+                            <form action="{% url 'catalogue:aliment' %}" method="post">
+                                {% csrf_token %}
+                                <div class="container text-center">
+                                    <button type="submit" class="btn btn-success">Substituer</button>
+                                    <input type="number" name="user" value="{{ user.id }}" style="visibility:hidden">
+                                    <input type="number" name="product" value="{{ product_id }}" style="visibility:hidden">
+                                    <input type="number" name="product_sub" value="{{ product.id }}" style="visibility:hidden">
+
+                                </div>
+                            </form>
+                        {% endif %}
+                    {% endif %}
                     </div>
                 </div>
+            </div>
+
             {% endfor %}
 
 
@@ -88,7 +102,9 @@
                 </section>
             {% endif %}
 
+
         </div>
     </div>
+</section>
 
 {% endif %}

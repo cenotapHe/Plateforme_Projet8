@@ -1,0 +1,115 @@
+{% extends 'catalogue/base.html' %}
+
+{% load static %}
+
+{% block header %}
+
+	<style>
+	    header {
+	      background-image: url("{% static 'catalogue/img/header_3.jpg' %}");
+	    }
+    </style>
+
+    <header class="masthead_2 text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Création d'un nouveau profil utilisateur</strong>
+            </h1>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </header>
+
+{% endblock %}
+
+
+{% block content %}
+
+  {% if user.is_authenticated %}
+
+    {% include 'catalogue/connexion_ok.html' %}
+    
+  {% else %}
+
+  <section id="services">
+    <form action="{% url 'catalogue:connexion' %}" method="post">
+
+      {% csrf_token %}
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <p><font color='{{ color }}'>{{ message }}</font></button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <label for="username" class="control-label">Pseudo</label>
+            </div>
+            <div class="col-lg-12 text-center">
+              <input type="text" name="username" value="" id="username" required>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <label for="email" class="control-label">E-mail</label>
+            </div>
+            <div class="col-lg-12 text-center">
+              <input type="email" name="email" value="" id="email" required>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <label for="password" class="control-label">Password</label>
+            </div>
+            <div class="col-lg-12 text-center">
+              <input type="password" name="password" value="" id="password" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <label for="confirmation" class="control-label">Confirmation Password</label>
+            </div>
+            <div class="col-lg-12 text-center">
+              <input type="password" name="confirmation" value="" id="confirmation" required>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <button type="submit" class="btn btn-success">Création</button>
+            </div>
+          </div>
+        </div>
+
+    </form>
+  </section>
+
+{% endif %}
+
+{% endblock %}

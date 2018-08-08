@@ -1,9 +1,48 @@
 {% extends 'catalogue/base.html' %}
+
+{% load static %}
+
+{% block header %}
+
+	<style>
+	    header {
+	      background-image: url("{% static 'catalogue/img/header_3.jpg' %}");
+	    }
+    </style>
+
+    <header class="masthead_2 text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>ERROR 404</strong>
+            </h1>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </header>
+
+{% endblock %}
+
+
 {% block content %}
-    <p><em>I'm lost. I'm like a king without a throne.</em></p>
-    <p>L'album que vous demandez est parti écouter Sarah Vaughan à la suite d'une rupture sentimentale.</p>
-    <p>Nous partons à l'instant même le secourir !</p>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.youtube.com/embed/E9Rl1GvTsiA" frameborder="0" allowfullscreen></iframe>
-    </div>
+
+	<section id="services">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-lg-12 text-center">
+	        <p>Nous sommes désolé, mais nous n'avons pas trouvé la page. En vous proposant une redirection pour <a href="{% url 'acceuil' %}">la page d'acceuil</a>.</button>
+	        </p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col-lg-12 text-center">
+	    <div class="service-box mt-5 mx-auto">
+	      <img class="img-fluid" src="{% static 'catalogue/img/colette_error.jpg' %}" alt="" width="450" height="450">
+	    </div>
+	  </div>
+	</section>
+
 {% endblock %}

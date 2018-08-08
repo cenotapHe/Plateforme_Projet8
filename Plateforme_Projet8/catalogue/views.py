@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 
-from .models import Category, Product
+from .models import Category, Product, Association
+
+from .forms import ConnexionForm, AssociationForm
 
 from django.template import loader
 
@@ -8,19 +10,168 @@ from django.shortcuts import render, get_object_or_404
 
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
+from django.contrib.auth.models import User
+
+from django.contrib.auth import authenticate, login, logout
+
 
 
 def index(request):
 	
-	products = Product.objects.filter()[:12]
-	categorys = Category.objects.filter()
-	
+	return render(request, 'catalogue/index.html')
+
+
+def join(request):
+
+	return render(request, 'catalogue/create_user.html')
+
+
+def connexion(request):
+
+
+	message = ''
+	color = 'black'
+
+	if request.method == 'POST':
+		email = request.POST.get('email')
+		username = request.POST.get('username')
+		password = request.POST.get('password')
+		confirmation = request.POST.get('confirmation')
+
+		if password != confirmation:
+
+			message = 'Les deux Password ne sont pas identique.'
+			color = 'red'
+
+			context = {
+					'message': message,
+					'color': color,
+				}
+
+			return render(request, 'catalogue/create_user.html', context)
+
+		if len(password) < 6:
+
+			message = 'Merci de choisir un password un peu plus compliqué.'
+			color = 'red'
+
+			context = {
+					'message': message,
+					'color': color,
+				}
+
+			return render(request, 'catalogue/create_user.html', context)
+
+		if len(username) < 6:
+
+			message = 'Merci de choisir un pseudo plus long.'
+			color = 'red'
+
+			context = {
+					'message': message,
+					'color': color,
+				}
+
+			return render(request, 'catalogue/create_user.html', context)
+
+		user = User.objects.filter(email=email)
+		if not user.exists():
+
+			user = User.objects.filter(username=username)
+			if not user.exists():
+
+				user = User.objects.create_user(username, email, password)
+				message = 'Vous venez de créer votre compte, merci de vous identifiez maintenant.'
+				color = 'green'
+
+			else :
+				message = 'Ce pseudo est déjà utilisé, merci d\'en trouver un autre.'
+				color = 'red'
+
+				context = {
+					'message': message,
+					'color': color,
+				}
+
+				return render(request, 'catalogue/create_user.html', context)
+
+		else :
+			message = 'Il existe déjà un compte avec cet email, essayez donc de vous identifier avec.'
+			color = 'red'
+
 	context = {
-		'products': products,
-		'categorys': categorys
+		'message': message,
+		'color': color,
 	}
-	
-	return render(request, 'catalogue/index.html', context)
+
+	return render(request, 'catalogue/connexion.html', context)
+
+
+def user(request):
+
+	error = False
+
+	if request.method == "POST":
+		form = ConnexionForm(request.POST)
+
+		if form.is_valid():
+			username = form.cleaned_data["username"]
+			password = form.cleaned_data["password"]
+			user = authenticate(username=username, password=password)
+
+			if user:
+				login(request, user)
+			else:
+				error = True
+
+				return render(request, 'catalogue/connexion.html')
+
+		else:
+			form = ConnexionForm()
+
+	return render(request, 'catalogue/user.html', locals())
+
+def aliment(request):
+
+
+	if request.method == "POST":
+		
+		form = AssociationForm(request.POST)
+
+		print(form["user"].value())
+		print(form["product"].value())
+		print(form["product_sub"].value())
+
+		if form.is_valid():
+
+			association = Association(asso_user=form["user"].value(), asso_product=form["product"].value(), asso_product_sub=form["product_sub"].value())
+
+			association.save()
+
+		else:
+			form = AssociationForm()
+
+	association_list = Association.objects.filter().order_by('-id')
+	products = Product.objects.filter()
+
+	context = {
+		'association_list': association_list,
+		'products': products,
+	}
+
+
+	return render(request, 'catalogue/aliment.html', context)
+
+
+def deconnexion(request):
+	logout(request)
+	message = 'A bientôt ! Et au plaisir de vous revoir très vite entouré de bon aliment !'
+	color = 'green'
+	context = {
+		'message': message,
+		'color': color,
+	}
+	return render(request, 'catalogue/connexion.html', context)
 
 
 def listing(request):
@@ -68,7 +219,9 @@ def detail(request, product_id):
 		'product_nutriscore' : product.nutriscore,
 		'categorys_name': categorys_name,
 		'product_id': product.id,
-		'thumbnail': product.picture
+		'thumbnail': product.picture,
+		'nutrition': product.nutrition,
+		'link': product.url_off,
 	}
 	
 	return render(request, 'catalogue/detail.html', context)
@@ -98,3 +251,5 @@ def search(request):
     }
 
     return render(request, 'catalogue/search.html', context)
+
+

@@ -175,6 +175,7 @@ img::-moz-selection {
   margin-bottom: 70px;
 }
 
+
 .nutriscore_title {
   text-shadow: 1px 1px 1px black, 1px 1px 1px black;
   font-size: 1.1em;
@@ -190,6 +191,65 @@ img::-moz-selection {
   color: green;
   text-shadow: 1px 1px 3px black, 1px 1px 3px black;
 }  
+
+.display_aliment {
+  padding-top: 30px;
+  height: 200px;
+  margin-bottom: 150px;
+}
+
+.nutriscore_title_display_aliment {
+  text-shadow: 1px 1px 1px black, 1px 1px 1px black;
+  font-size: 1.1em;
+  position: relative;
+  margin-top: -30px;
+  margin-left: 135px;
+}
+
+.nutriscore_display_aliment {
+  position: relative;
+  margin-top : -135px;
+  margin-left: 135px;
+  font-size: 4em;
+  color: green;
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black;
+}  
+
+
+@media (max-width: 500px) {
+
+  .display_aliment {
+    padding-top: 30px;
+    height: 200px;
+    margin-bottom: 150px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .nutriscore_title_display_aliment {
+    text-shadow: 1px 1px 1px black, 1px 1px 1px black;
+    font-size: 1.1em;
+    position: relative;
+    margin-top: -30px;
+    margin-left: -5px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .nutriscore_display_aliment {
+    position: relative;
+    margin-top : -165px;
+    margin-left: 190px;
+    font-size: 4em;
+    color: green;
+    text-shadow: 1px 1px 3px black, 1px 1px 3px black;
+  }  
+
+}
 
 header.masthead {
   padding-top: 10rem;

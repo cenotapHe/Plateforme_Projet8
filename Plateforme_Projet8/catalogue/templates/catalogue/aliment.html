@@ -1,0 +1,94 @@
+{% extends 'catalogue/base.html' %}
+
+{% load static %}
+
+{% block header %}
+
+	<style>
+	    header {
+	      background-image: url("{% static 'catalogue/img/header_3.jpg' %}");
+	    }
+    </style>
+
+    <header class="masthead_2 text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Mes Aliments</strong>
+            </h1>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </header>
+
+{% endblock %}
+
+
+{% block content %}
+
+  {% if user.is_authenticated %}
+
+  <section class="container text-left">
+
+    {% for id in association_list %}
+
+      {% if user.id == id.asso_user %}
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+                <div class="display_aliment">
+            
+              {% for product in products %}
+
+                {% if product.id == id.asso_product %}
+                  {% include 'catalogue/display_aliment.html' %}
+                {% endif %}
+
+              {% endfor %}
+
+              remplacé par
+
+              {% for product in products %}
+
+                {% if product.id == id.asso_product_sub %}
+                  {% include 'catalogue/display_aliment.html' %}
+                {% endif %}
+                
+              {% endfor %}
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      {% endif %}
+
+    {% endfor %}
+
+  </section>
+
+    <div class="container">
+      <div class="row">
+
+          <div class="display_aliment">
+            <a class="nav-link js-scroll-trigger" href="{% url 'catalogue:listing' %}"><font color='green'>Voici le lien vers notre catalogue, afin de trouver des aliments à substituer pour votre page utilisateur.</font></a>
+          </div>
+
+      </div>
+    </div>
+
+
+  {% else %}
+
+    <p>Merci de vous idenfifier.</p>
+    
+  {% endif %}
+  
+
+{% endblock %}

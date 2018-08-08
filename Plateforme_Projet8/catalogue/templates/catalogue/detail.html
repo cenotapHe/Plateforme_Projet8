@@ -18,12 +18,16 @@
               <strong>{{ product_name }}</strong>
             </h1>
             <hr>
+            <h3 class="text-uppercase">
+              <strong>{{ categorys_name }}</strong>
+            </h3>
+            <hr>
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-white mb-5">{{ product_description }}</p>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-white mb-5">
+          <div class="col-lg-6 mx-auto text-center">
+          <p class="text-white mb-5">
 
               {% if product_nutriscore == 1 %}
                 <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/A.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
@@ -37,13 +41,8 @@
                 <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/E.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
               {% endif %}
 
-            </p>
-          </div>
-          <div class="col-lg-10 mx-auto">
-            <h3 class="text-uppercase">
-              <strong>{{ categorys_name }}</strong>
-            </h3>
-          </div>
+          </p>
+        </div>
         </div>
       </div>
     </header>
@@ -51,6 +50,30 @@
 {% endblock %}
 
 {% block content %}
+
+  <section id="about" class="bg-primary">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 mx-auto text-center">
+          <p>
+            <img class="img-fluid" src="{{ nutrition }}" alt="" width="300" height="300" style="border:solid 2px grey">
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto text-center">
+          <a href="{{ link }}" class="btn btn-light btn-xl js-scroll-trigger">Voir la fiche d'OpenFoodFacts</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
   {% include 'catalogue/list.html' with list_name='Vous pouvez remplacer cet aliment par :' %}
 
