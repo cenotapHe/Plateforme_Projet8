@@ -131,8 +131,8 @@ def user(request):
 
 	return render(request, 'catalogue/user.html', locals())
 
-def aliment(request):
 
+def aliment(request):
 
 	if request.method == "POST":
 		

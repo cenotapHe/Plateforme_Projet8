@@ -10,14 +10,14 @@ debut = time.time()
 
 # Variable for the main boucle
 i = 1
-i_max = 100
+i_max = 300
 
 # Variable for the category
 count = 0
 list_category = []
 list_product = []
 i_category = 0
-name_category = ['fruits-based-foods', 'legumes-and-their-products', 'juices-and-nectars', 'biscuits', 'ice-creams-and-sorbets', 'chocolates', 'breakfast-cereals', 'meats', 'desserts', 'french-cheeses']
+name_category = ['fruits-based-foods', 'legumes-and-their-products', 'juices-and-nectars', 'biscuits', 'ice-creams-and-sorbets', 'chocolates', 'breakfast-cereals', 'meats', 'yogurts', 'french-cheeses', 'sauces', 'seafood', 'jams', 'breads', 'chips-and-fries']
 
 # Main Boucle
 while i <= i_max:
@@ -89,6 +89,9 @@ while i <= i_max:
                             product_description = product_description[:h] + \
                                 "," + product_description[h + 1:]
                         h += 1
+
+                    if product_description[len(product_description)] != "'":
+                        product_description = product_description + "'"
 
                     # Make or Open the SQL file
                     fichier2 = open("Set_of_Data.sql", "a")
