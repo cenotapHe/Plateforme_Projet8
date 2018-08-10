@@ -1,0 +1,68 @@
+{% extends 'catalogue/base.html' %}
+
+{% load static %}
+
+{% block header %}
+
+	<style>
+	    header {
+	      background-image: url("{% static 'catalogue/img/header_2.jpg' %}");
+	    }
+    </style>
+
+    <header class="masthead_2 text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Mention légale</strong>
+            </h1>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </header>
+
+{% endblock %}
+
+
+{% block content %}
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <a href="https://docs.google.com/document/d/1wOSDUdCN5QV4lSXIQhDFFk_bmDXrEU72qMrmIMxJWYY/edit">Cahier des charges <strong>Pur Beurre</strong></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <a href="https://company-82435.frontify.com/d/6Yy9WFJdtp8j/pur-beurre-style-guide#/introduction/Notre-identit%C3%A9">Charte Graphique <strong>Pur Beurre</strong></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <a href="https://startbootstrap.com/template-overviews/creative/">Template Bootstrap <strong>Creative</strong></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <a href="https://github.com/cenotapHe/Plateforme_Projet8">Repository Git Hub <strong>Projet 8</strong></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}

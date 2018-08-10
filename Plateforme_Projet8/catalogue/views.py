@@ -271,3 +271,8 @@ def search(request):
     }
 
     return render(request, 'catalogue/search.html', context)
+
+
+# Legal Mention
+def legal_mention(request):
+    return render(request, 'catalogue/legal_mention.html')
