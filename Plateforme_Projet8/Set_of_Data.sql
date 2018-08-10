@@ -371,8 +371,10 @@ INSERT INTO catalogue_product
 VALUES ('116', 'Pom,Potes pomme-abricot', 'Pomme 69,8 %, abricot 25,6 %, sucre, antioxydant : acide ascorbique.', '1', '1', 'https://static.openfoodfacts.org/images/products/302/176/040/0074/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/302/176/040/0074/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3021760400074/pom-potes-pomme-abricot-materne');
 
 INSERT INTO catalogue_product
-VALUES ('117', 'Confiture Oranges Bio Village', 'Sucre*, orange* (avec écorces coupées en lamelles), gélifiant : pectine, acidifiant : acide citrique.
-* ingrédients issus de l,agriculture biologique.
+VALUES ('117', 'Confiture Oranges Bio Village', 'Sucre*, orange* (avec écorces coupées en lamelles), gélifiant : pectine, acidifiant : acide citrique.
+
+* ingrédients issus de l,agriculture biologique.
+
 Préparée avec 40 g de fruits pour 100 g.', '4', '1', 'https://static.openfoodfacts.org/images/products/356/470/708/2297/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/356/470/708/2297/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3564707082297/confiture-oranges-bio-village-marque-repere');
 
 INSERT INTO catalogue_product
@@ -496,7 +498,8 @@ INSERT INTO catalogue_product
 VALUES ('157', 'Confiture d,Abricots', 'Fruits 61 % (abricots 53 %, jus de citron à base de concentré 8 %), sucre, sirop de glucose-fructose, gélifiant (pectine), antioxydant (acide ascorbique).', '4', '1', 'https://static.openfoodfacts.org/images/products/540/011/108/7733/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/540/011/108/7733/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/5400111087733/confiture-d-abricots-delhaize');
 
 INSERT INTO catalogue_product
-VALUES ('158', 'Figues moelleuses Bio', 'Figues sèches* (90%), eau.
+VALUES ('158', 'Figues moelleuses Bio', 'Figues sèches* (90%), eau.
+
 Humidité maximum : 35%.', '2', '1', 'https://static.openfoodfacts.org/images/products/356/470/709/8915/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/356/470/709/8915/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3564707098915/figues-moelleuses-bio-bio-village');
 
 INSERT INTO catalogue_product
@@ -827,7 +830,8 @@ INSERT INTO catalogue_product
 VALUES ('267', 'Compote de pomme allégée', 'Purée de pommes 95,7 %, sucre, antioxydant : acide ascorbique.', '1', '1', 'https://static.openfoodfacts.org/images/products/359/671/040/8375/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/359/671/040/8375/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3596710408375/compote-de-pomme-allegee-auchan');
 
 INSERT INTO catalogue_product
-VALUES ('268', 'Confiture de Fraise (Fruits 45%) ', 'Sirop de glucose-fructose, fraise, sucre, gélifiant : pectines, correcteur d,acidité : acide citrique. préparé avec 45 g de fruits pour 100 g.
+VALUES ('268', 'Confiture de Fraise (Fruits 45%) ', 'Sirop de glucose-fructose, fraise, sucre, gélifiant : pectines, correcteur d,acidité : acide citrique. préparé avec 45 g de fruits pour 100 g.
+
 Teneur totale en sucres : 57 g pour 100 g.', '3', '1', 'https://static.openfoodfacts.org/images/products/541/004/601/6654/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/541/004/601/6654/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/5410046016654/confiture-de-fraise-fruits-45-confilux');
 
 INSERT INTO catalogue_product
@@ -965,8 +969,10 @@ INSERT INTO catalogue_product
 VALUES ('310', 'Smooth Peanut Butter', '94 % _arachides_, huile de palme, sel, sucre de canne, 1 % d,huile d,_arachide_.', '3', '2', 'https://static.openfoodfacts.org/images/products/20675547/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/20675547/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/20675547/smooth-peanut-butter-mister-choc');
 
 INSERT INTO catalogue_product
-VALUES ('311', 'Boisson au soja vanille', 'Jus de _soja_ bio 94 % (eau, graines de _soja_ bio sans OGM 7 %), concentré de jus de raisin bio, sucre de canne bio, arôme naturel de vanille, algue lithothamne (Lithothamnium calcareum)**, sel.
-
+VALUES ('311', 'Boisson au soja vanille', 'Jus de _soja_ bio 94 % (eau, graines de _soja_ bio sans OGM 7 %), concentré de jus de raisin bio, sucre de canne bio, arôme naturel de vanille, algue lithothamne (Lithothamnium calcareum)**, sel.
+
+
+
 **algue naturellement riche en calcium.', '1', '2', 'https://static.openfoodfacts.org/images/products/324/541/115/7944/front_fr.46.full.jpg', 'https://static.openfoodfacts.org/images/products/324/541/115/7944/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3245411157944/boisson-au-soja-vanille-carrefour-bio');
 
 INSERT INTO catalogue_product
@@ -1057,7 +1063,8 @@ INSERT INTO catalogue_product
 VALUES ('340', 'Haricots verts extra fins', 'haricots verts, eau, sel.         ', '1', '2', 'https://static.openfoodfacts.org/images/products/20004217/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/20004217/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/20004217/haricots-verts-extra-fins-freshona');
 
 INSERT INTO catalogue_product
-VALUES ('341', 'Mélanges Gourmands - Soja, petits pois, lentilles', ' Petits pois concassés précuits 30%, lentilles blondes décortiquées précuites 20%, _soja_ concassé 20%, flocons de _soja_ grillés 15%, lentilles vertes précuites 10%, lentilles corail décortiquées 5%.
+VALUES ('341', 'Mélanges Gourmands - Soja, petits pois, lentilles', ' Petits pois concassés précuits 30%, lentilles blondes décortiquées précuites 20%, _soja_ concassé 20%, flocons de _soja_ grillés 15%, lentilles vertes précuites 10%, lentilles corail décortiquées 5%.
+
 Peut contenir des traces de gluten.  ', '1', '2', 'https://static.openfoodfacts.org/images/products/356/007/082/3826/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/082/3826/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070823826/melanges-gourmands-soja-petits-pois-lentilles-carrefour');
 
 INSERT INTO catalogue_product
@@ -1100,7 +1107,8 @@ INSERT INTO catalogue_product
 VALUES ('354', 'Mogette de Vendée', 'Mogette de Vendée', '1', '2', 'https://static.openfoodfacts.org/images/products/370/022/510/6347/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/370/022/510/6347/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3700225106347/mogette-de-vendee-grain-de-vitalite');
 
 INSERT INTO catalogue_product
-VALUES ('355', 'Boisson au soja saveur miel', 'Jus de soja bio (eau, graines de soja bio 7,2 %), sucre de canne bio, miel bio 1,4 %, arôme naturel, épaississant : carraghénanes.
+VALUES ('355', 'Boisson au soja saveur miel', 'Jus de soja bio (eau, graines de soja bio 7,2 %), sucre de canne bio, miel bio 1,4 %, arôme naturel, épaississant : carraghénanes.
+
 ', '2', '2', 'https://static.openfoodfacts.org/images/products/356/007/059/5648/front_fr.35.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/059/5648/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070595648/boisson-au-soja-saveur-miel-carrefour');
 
 INSERT INTO catalogue_product
@@ -1119,8 +1127,10 @@ INSERT INTO catalogue_product
 VALUES ('360', 'Biosoy Nature', 'Eau, _soja_* dépelliculé 8,2 %. *Ingrédients issus de l’Agriculture Biologique.', '1', '2', 'https://static.openfoodfacts.org/images/products/325/901/050/0018/front_fr.36.full.jpg', 'https://static.openfoodfacts.org/images/products/325/901/050/0018/nutrition_fr.38.400.jpg', 'https://fr-en.openfoodfacts.org/product/3259010500018/biosoy-nature-soy');
 
 INSERT INTO catalogue_product
-VALUES ('361', 'Biosoy Calcium', 'jus de _soja_(1) 97% (eau, _soja_* depelliculé 7,9%), sucre de canne* non raffiné, algue calcaire Lithothamnium calcareum, sel de mer, stabilisant : carraghénanes (extrais d,algues marines).
-* Ingrédients issus de l,agriculture biologique.
+VALUES ('361', 'Biosoy Calcium', 'jus de _soja_(1) 97% (eau, _soja_* depelliculé 7,9%), sucre de canne* non raffiné, algue calcaire Lithothamnium calcareum, sel de mer, stabilisant : carraghénanes (extrais d,algues marines).
+
+* Ingrédients issus de l,agriculture biologique.
+
 (1) Soja sans OGM issus d,une fillière Bio Solidaire contrôlée par Ecocert SA', '1', '2', 'https://static.openfoodfacts.org/images/products/325/901/050/0049/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/901/050/0049/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3259010500049/biosoy-calcium-soy');
 
 INSERT INTO catalogue_product
@@ -1148,7 +1158,8 @@ INSERT INTO catalogue_product
 VALUES ('369', 'Protéines de soja gros morceaux', 'Farine de soja déshuilée', '1', '2', 'https://static.openfoodfacts.org/images/products/338/039/022/1504/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/338/039/022/1504/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3380390221504/proteines-de-soja-gros-morceaux-primeal');
 
 INSERT INTO catalogue_product
-VALUES ('370', 'Haricots Verts Extra fins coupés', 'Haricots verts extra fins coupés*, eau ,sel.
+VALUES ('370', 'Haricots Verts Extra fins coupés', 'Haricots verts extra fins coupés*, eau ,sel.
+
 *Ingrédients issus de l,agriculture biologique.', '1', '2', 'https://static.openfoodfacts.org/images/products/325/039/181/8181/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/181/8181/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250391818181/haricots-verts-extra-fins-coupes-saint-eloi');
 
 INSERT INTO catalogue_product
@@ -1197,7 +1208,8 @@ INSERT INTO catalogue_product
 VALUES ('385', 'Boisson au Soja Vanille Bio - 1 litre - U', 'Jus de soja (eau, graines de soja 8%), sucre de canne, arôme naturel vanille.', '1', '2', 'https://static.openfoodfacts.org/images/products/325/622/017/8495/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/017/8495/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220178495/boisson-au-soja-vanille-bio-1-litre-u');
 
 INSERT INTO catalogue_product
-VALUES ('386', 'Soja nature Bio Gerblé', 'Tonyu* 100% (eau, soja sans OGM dépelliculé* 8,2%).
+VALUES ('386', 'Soja nature Bio Gerblé', 'Tonyu* 100% (eau, soja sans OGM dépelliculé* 8,2%).
+
 *Ingrédients agricoles issus de l,agriculture biologique.', '1', '2', 'https://static.openfoodfacts.org/images/products/325/149/075/1508/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/325/149/075/1508/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3251490751508/soja-nature-bio-gerble');
 
 INSERT INTO catalogue_product
@@ -1414,7 +1426,8 @@ INSERT INTO catalogue_product
 VALUES ('456', 'Jus d,orange 100% pur jus', 'Jus d,orange.', '3', '3', 'https://static.openfoodfacts.org/images/products/325/039/155/6205/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/155/6205/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250391556205/jus-d-orange-100-pur-jus-paquito');
 
 INSERT INTO catalogue_product
-VALUES ('457', '100% pur jus pommes de Bretagne', 'Jus de pomme.
+VALUES ('457', '100% pur jus pommes de Bretagne', 'Jus de pomme.
+
 (pommes de table et pommes à cidre)', '3', '3', 'https://static.openfoodfacts.org/images/products/322/247/644/6657/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/644/6657/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222476446657/100-pur-jus-pommes-de-bretagne-casino');
 
 INSERT INTO catalogue_product
@@ -1427,7 +1440,8 @@ INSERT INTO catalogue_product
 VALUES ('460', 'Jus d,orange pulpé biologique pasteurisé', 'Jus d’orange bio (96,5 %), pulpes d,orange bio (3,5 %).', '3', '3', 'https://static.openfoodfacts.org/images/products/356/007/037/0535/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/037/0535/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070370535/jus-d-orange-pulpe-biologique-pasteurise-carrefour');
 
 INSERT INTO catalogue_product
-VALUES ('461', '100 % Pur Jus Clémentine', 'Jus de clémentine.
+VALUES ('461', '100 % Pur Jus Clémentine', 'Jus de clémentine.
+
 ', '4', '3', 'https://static.openfoodfacts.org/images/products/335/003/188/8755/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/335/003/188/8755/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3350031888755/100-pur-jus-clementine-monoprix');
 
 INSERT INTO catalogue_product
@@ -1746,7 +1760,8 @@ INSERT INTO catalogue_product
 VALUES ('566', 'Pur jus 4 fruits préssés pommes et fruits rouges', '6 pommes pressées (69 %), 34 raisins blancs pressés, 10 fraises mixées (12 %), 51 baies de cassis pressées (4 %).', '3', '3', 'https://static.openfoodfacts.org/images/products/503/886/213/6129/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/503/886/213/6129/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/5038862136129/pur-jus-4-fruits-presses-pommes-et-fruits-rouges-innocent');
 
 INSERT INTO catalogue_product
-VALUES ('567', 'Fruits du verger', 'Jus de pomme à base de concentré**, purée de poire**, eau, jus de raison à base de concentré**.
+VALUES ('567', 'Fruits du verger', 'Jus de pomme à base de concentré**, purée de poire**, eau, jus de raison à base de concentré**.
+
 **ingrédients issus de l,agriculture biologique.', '4', '3', 'https://static.openfoodfacts.org/images/products/356/470/710/9598/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/356/470/710/9598/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3564707109598/fruits-du-verger-bio-village');
 
 INSERT INTO catalogue_product
@@ -1831,7 +1846,8 @@ INSERT INTO catalogue_product
 VALUES ('594', 'le pur jus Duo Pomme & Fraise', 'jus de pomme (87%), purée de fraise (10%), jus de carotte pourpre', '3', '3', 'https://static.openfoodfacts.org/images/products/312/334/901/2026/front_en.7.full.jpg', 'https://static.openfoodfacts.org/images/products/312/334/901/2026/nutrition_en.4.400.jpg', 'https://fr-en.openfoodfacts.org/product/3123349012026/le-pur-jus-duo-pomme-et-fraise-joker');
 
 INSERT INTO catalogue_product
-VALUES ('595', 'La Tranche Le Jus de Citron &quot,Verdello&quot, de Sicile', 'Jus de citron « verdello » de Sicile (99,81 %), huile essentielle de citron vert (0,12 %), conservateur : _disulfite_ de potassium.
+VALUES ('595', 'La Tranche Le Jus de Citron &quot,Verdello&quot, de Sicile', 'Jus de citron « verdello » de Sicile (99,81 %), huile essentielle de citron vert (0,12 %), conservateur : _disulfite_ de potassium.
+
 ', '2', '3', 'https://static.openfoodfacts.org/images/products/800/949/000/1100/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/800/949/000/1100/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/8009490001100/la-tranche-le-jus-de-citron-verdello-de-sicile-siracuse');
 
 INSERT INTO catalogue_product
@@ -1865,7 +1881,8 @@ INSERT INTO catalogue_product
 VALUES ('605', 'Pur Jus de Pomme', 'Jus de Pomme.', '3', '3', 'https://static.openfoodfacts.org/images/products/339/641/004/8174/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/339/641/004/8174/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3396410048174/pur-jus-de-pomme-bonneterre');
 
 INSERT INTO catalogue_product
-VALUES ('606', 'Cocktail pomme groseille ', 'Jus de pomme 82%
+VALUES ('606', 'Cocktail pomme groseille ', 'Jus de pomme 82%
+
 Jus de groseille 18%', '3', '3', 'https://static.openfoodfacts.org/images/products/130/141/609/2405/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/130/141/609/2405/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/1301416092405/cocktail-pomme-groseille-au-panier-fermier');
 
 INSERT INTO catalogue_product
@@ -1911,23 +1928,31 @@ INSERT INTO catalogue_product
 VALUES ('620', 'Pure Premium Pomme pressée 100% pur fruit pressé', 'Jus de pommes, vitamine C.  ', '4', '3', 'https://static.openfoodfacts.org/images/products/541/018/801/3030/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/541/018/801/3030/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/5410188013030/pure-premium-pomme-pressee-100-pur-fruit-presse-tropicana');
 
 INSERT INTO catalogue_product
-VALUES ('621', 'Nectar Orange À Base de Concentré', 'Jus d,orange** à base de concentré - eau - sucre de canne**.
-
+VALUES ('621', 'Nectar Orange À Base de Concentré', 'Jus d,orange** à base de concentré - eau - sucre de canne**.
+
+
+
 **Issus de l,agriculture biologique.', '5', '3', 'https://static.openfoodfacts.org/images/products/322/247/530/7836/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/530/7836/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222475307836/nectar-orange-a-base-de-concentre-casino');
 
 INSERT INTO catalogue_product
-VALUES ('622', 'Nectar Multifruits À Base de Concentrés et de Purées de Fruits', 'Jus de fruits partiellement à base de concentrés et purées de fruits** (orange** - pomme** - raisin** - abricot** - pamplemousse** - ananas** - banane**) - eau - sucre de canne**.
-
+VALUES ('622', 'Nectar Multifruits À Base de Concentrés et de Purées de Fruits', 'Jus de fruits partiellement à base de concentrés et purées de fruits** (orange** - pomme** - raisin** - abricot** - pamplemousse** - ananas** - banane**) - eau - sucre de canne**.
+
+
+
 **Issus de l,agriculture biologique.', '5', '3', 'https://static.openfoodfacts.org/images/products/322/247/530/7850/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/530/7850/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222475307850/nectar-multifruits-a-base-de-concentres-et-de-purees-de-fruits-casino');
 
 INSERT INTO catalogue_product
-VALUES ('623', 'Jus Pruneau à base de pruneaux réhydratés', 'Jus de pruneaux** réhydratés.
-
+VALUES ('623', 'Jus Pruneau à base de pruneaux réhydratés', 'Jus de pruneaux** réhydratés.
+
+
+
 **Issus de l,agriculture biologique.', '4', '3', 'https://static.openfoodfacts.org/images/products/322/247/530/8543/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/530/8543/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222475308543/jus-pruneau-a-base-de-pruneaux-rehydrates-casino');
 
 INSERT INTO catalogue_product
-VALUES ('624', 'Jus Orange Banane à base de concentré et de purée', 'Jus d,orange** à base de jus concentré 80 % - purée de banane** 20 %.
-
+VALUES ('624', 'Jus Orange Banane à base de concentré et de purée', 'Jus d,orange** à base de jus concentré 80 % - purée de banane** 20 %.
+
+
+
 **Issues de l,agriculture biologique.', '4', '3', 'https://static.openfoodfacts.org/images/products/322/247/530/8550/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/530/8550/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222475308550/jus-orange-banane-a-base-de-concentre-et-de-puree-casino');
 
 INSERT INTO catalogue_product
