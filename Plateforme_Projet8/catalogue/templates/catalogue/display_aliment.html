@@ -1,24 +1,31 @@
-
-
-                            <a href="{% url 'catalogue:detail' product_id=product.id %}">
-                              <p><img class="img-responsive" src="{{ product.picture }}" alt="{{ product.name }}" width="130" height="130" style="border:solid 2px #000000;"></p>
-                            </a>
+<a href="{% url 'catalogue:detail' product_id=product.id %}">
+    <p><img class="img-responsive" src="{{ product.picture }}" alt="{{ product.name }}" width="130" height="130" style="border:solid 2px #000000;"></p>
+</a>
                             
+{% if product.nutriscore == 1 %}
 
-                            {% if product.nutriscore == 1 %}
-                                <p class="nutriscore_display_aliment"><font color="green">A</font></p>
-                                <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="green">{{ product.name }}</font></a></p>
-                            {% elif product.nutriscore == 2 %}
-                                <p class="nutriscore_display_aliment"><font color="#78DF33">B</font></p>
-                                <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="#78DF33">{{ product.name }}</font></a></p>
-                            {% elif product.nutriscore == 3 %}
-                                <p class="nutriscore_display_aliment"><font color="yellow">C</font></p>
-                                <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="yellow">{{ product.name }}</font></a></p>
-                            {% elif product.nutriscore == 4 %}
-                                <p class="nutriscore_display_aliment"><font color="orange">D</font></p>
-                                <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="orange">{{ product.name }}</font></a></p>
-                            {% else %}
-                                <p class="nutriscore_display_aliment"><font color="red">E</font></p>
-                                <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="red">{{ product.name }}</font></a></p>
-                            {% endif %}
+    <p class="nutriscore_display_aliment"><font color="green">A</font></p>
+    <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="green">{{ product.name }}</font></a></p>
+
+{% elif product.nutriscore == 2 %}
+
+    <p class="nutriscore_display_aliment"><font color="#78DF33">B</font></p>
+    <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="#78DF33">{{ product.name }}</font></a></p>
+
+{% elif product.nutriscore == 3 %}
+
+    <p class="nutriscore_display_aliment"><font color="yellow">C</font></p>
+    <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="yellow">{{ product.name }}</font></a></p>
+
+{% elif product.nutriscore == 4 %}
+
+    <p class="nutriscore_display_aliment"><font color="orange">D</font></p>
+    <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="orange">{{ product.name }}</font></a></p>
+
+{% else %}
+
+    <p class="nutriscore_display_aliment"><font color="red">E</font></p>
+    <p class="nutriscore_title_display_aliment"><a href="{% url 'catalogue:detail' product_id=product.id %}"><font color="red">{{ product.name }}</font></a></p>
+    
+{% endif %}
 

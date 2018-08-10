@@ -27,6 +27,7 @@ urlpatterns = [
     path('', views.index, name='acceuil')
 ]
 
+# using for the dev's environement
 if settings.DEBUG:
 
     import debug_toolbar

@@ -49,6 +49,8 @@
 
   {% else %}
 
+    <!-- if no user is authenticated the page create a form for connexion -->
+
     <section id="services">
       <form action="{% url 'catalogue:user' %}" method="post">
 

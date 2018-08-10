@@ -10,6 +10,7 @@
     }
   </style>
 
+    <!-- the header for the choosen product -->
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
@@ -29,6 +30,8 @@
           <div class="col-lg-6 mx-auto text-center">
           <p class="text-white mb-5">
 
+
+              <!-- modification of display in function of the nutriscore -->
               {% if product_nutriscore == 1 %}
                 <img class="img-fluid" src="{% static 'catalogue/img/nutriscore/A.png' %}" alt="" width="200" height="200" style="border:solid 2px grey">
               {% elif product_nutriscore == 2 %}

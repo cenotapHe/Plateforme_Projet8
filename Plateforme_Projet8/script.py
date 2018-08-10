@@ -10,7 +10,10 @@ debut = time.time()
 
 # Variable for the main boucle
 i = 1
-i_max = 500
+i_max = 500 # Modification of this variable for create a biggest sql file
+# (i_max = 100) => ~1500products
+# (i_max = 200) => ~3000products
+# etc, etc,...
 
 # Variable for the category
 count = 0

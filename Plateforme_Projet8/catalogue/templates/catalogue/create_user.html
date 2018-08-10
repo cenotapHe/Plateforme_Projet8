@@ -34,6 +34,7 @@
     
   {% else %}
 
+  <!-- if no user is authenticated the page create a form for account's creation -->
   <section id="services">
     <form action="{% url 'catalogue:connexion' %}" method="post">
 
