@@ -10,7 +10,7 @@ debut = time.time()
 
 # Variable for the main boucle
 i = 1
-i_max = 300
+i_max = 500
 
 # Variable for the category
 count = 0
@@ -90,8 +90,6 @@ while i <= i_max:
                                 "," + product_description[h + 1:]
                         h += 1
 
-                    if product_description[len(product_description)] != "'":
-                        product_description = product_description + "'"
 
                     # Make or Open the SQL file
                     fichier2 = open("Set_of_Data.sql", "a")

@@ -57,10 +57,12 @@
                             <form action="{% url 'catalogue:aliment' %}" method="post">
                                 {% csrf_token %}
                                 <div class="container text-center">
+                                    <div class="btn-sub">
                                     <button type="submit" class="btn btn-success">Substituer</button>
                                     <input type="number" name="user" value="{{ user.id }}" style="visibility:hidden">
                                     <input type="number" name="product" value="{{ product_id }}" style="visibility:hidden">
                                     <input type="number" name="product_sub" value="{{ product.id }}" style="visibility:hidden">
+                                    </div>
 
                                 </div>
                             </form>
