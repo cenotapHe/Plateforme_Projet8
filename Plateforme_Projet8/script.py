@@ -10,7 +10,7 @@ debut = time.time()
 
 # Variable for the main boucle
 i = 1
-i_max = 500 # Modification of this variable for create a biggest sql file
+i_max = 500  # Modification of this variable for create a biggest sql file
 # (i_max = 100) => ~1500products
 # (i_max = 200) => ~3000products
 # etc, etc,...
@@ -20,7 +20,8 @@ count = 0
 list_category = []
 list_product = []
 i_category = 0
-name_category = ['fruits-based-foods', 'legumes-and-their-products', 'juices-and-nectars', 'biscuits', 'ice-creams-and-sorbets', 'chocolates', 'breakfast-cereals', 'meats', 'yogurts', 'french-cheeses', 'sauces', 'seafood', 'jams', 'breads', 'chips-and-fries']
+name_category = ['fruits-based-foods', 'legumes-and-their-products', 'juices-and-nectars', 'biscuits', 'ice-creams-and-sorbets',
+                 'chocolates', 'breakfast-cereals', 'meats', 'yogurts', 'french-cheeses', 'sauces', 'seafood', 'jams', 'breads', 'chips-and-fries']
 
 # Main Boucle
 while i <= i_max:
@@ -66,7 +67,8 @@ while i <= i_max:
                 product_stores = bibliotheque['stores']
                 product_description = bibliotheque['ingredients_text_fr'][:999]
                 product_image = bibliotheque['image_url']
-                product_image = product_image[:len(product_image) - 7] + "full.jpg"
+                product_image = product_image[:len(
+                    product_image) - 7] + "full.jpg"
                 product_nutrition = bibliotheque['image_nutrition_url']
                 product_link = bibliotheque['url']
 
@@ -92,7 +94,6 @@ while i <= i_max:
                             product_description = product_description[:h] + \
                                 "," + product_description[h + 1:]
                         h += 1
-
 
                     # Make or Open the SQL file
                     fichier2 = open("Set_of_Data.sql", "a")
@@ -125,7 +126,6 @@ while i <= i_max:
                         product_nutriscore_number = '4'
                     else:
                         product_nutriscore_number = '5'
-
 
                     if product_name not in list_product:
                         # Creation of new product in the SQL file
