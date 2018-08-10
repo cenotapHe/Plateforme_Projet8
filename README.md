@@ -92,6 +92,7 @@ This application use Python v3.x and Django v2.x
 * [HTML5](https://www.w3schools.com/html/) - Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.
 * [CSS3](https://www.w3schools.com/Css/) - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 * [JavaScript](https://www.javascript.com) - JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is a high-level, interpreted programming language.
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap - Build responsive, mobile-first projects on the web with the world's most popular front-end component library. .
 
 ## Installing
 

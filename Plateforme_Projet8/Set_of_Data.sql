@@ -5136,3 +5136,759 @@ VALUES ('1557', 'Chocapic Choco Noisette', 'Céréales 59,7% (farine de blé com
 INSERT INTO catalogue_product
 VALUES ('1558', 'Choco Numbers', 'Céréales 69 % [semoule de maïs, farine complète de _blé_ 24 %, farine d,_avoine_], sucre, chocolat en poudre 9 % [sucre, cacao en poudre 2,8 %], cacao maigre en poudre, sel, arôme.', '3', '7', 'https://static.openfoodfacts.org/images/products/356/007/062/0135/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/062/0135/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070620135/choco-numbers-carrefour-kids');
 
+INSERT INTO catalogue_category
+VALUES (8, 'meats');
+
+INSERT INTO catalogue_product
+VALUES ('1559', 'Jambon Decouénné Dégraissé', 'Jambon de porc (origine France), sel, dextrose, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/039/130/1621/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/130/1621/nutrition_fr.5.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250391301621/jambon-decouenne-degraisse-sans-marque');
+
+INSERT INTO catalogue_product
+VALUES ('1560', 'Rillettes du Mans Pur Porc', 'Viande de porc 75 % (origine France), gras de porc, sel, poivre, conservateur : nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/322/247/101/2604/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/101/2604/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222471012604/rillettes-du-mans-pur-porc-casino');
+
+INSERT INTO catalogue_product
+VALUES ('1561', 'Nuggets de Poulet', 'Préparation de viande de poulet 46 %, eau, farine de _blé_, farine de _blé_ dur, sel, dextrose, dextrine de manioc, fibres de _blé_, protéines de _blé_, arôme naturel, levure, poudres à lever : diphosphate disodique et carbonate acide de sodium, colorants : extrait de paprika et caroténoïdes mélangés. Huile de tournesol.', '2', '8', 'https://static.openfoodfacts.org/images/products/324/541/215/5543/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/324/541/215/5543/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3245412155543/nuggets-de-poulet-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1562', 'La Saucisse Nature', 'Viande de porc (93 %) dont jambon (20 %), sel de mer, poivre. Boyau naturel de porc', '4', '8', 'https://static.openfoodfacts.org/images/products/353/758/080/0500/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/353/758/080/0500/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/3537580800500/la-saucisse-nature-henaff');
+
+INSERT INTO catalogue_product
+VALUES ('1563', 'Jambon IGP d,Auvergne', 'Jambon de porc (France), sel, ail, conservateur : nitrate de potassium', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/460/0378/front_en.5.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/460/0378/nutrition_en.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954600378/jambon-sec-d-auvergne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1564', 'Jambon sec traditionnel', 'Jambon de porc, sel, conservateur : nitrate de potassium.', '5', '8', 'https://static.openfoodfacts.org/images/products/20592677/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/20592677/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/20592677/jambon-sec-traditionnel-saint-alby');
+
+INSERT INTO catalogue_product
+VALUES ('1565', 'Dés de Jambon', 'Jambon de porc 86%, eau, sel, arômes, sirop de glucose, dextrose, conservateurs (lactate de potassium, nitrite de sodium), antioxydant (érythorbate de sodium)', '4', '8', 'https://static.openfoodfacts.org/images/products/322/247/246/9827/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/246/9827/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222472469827/des-de-jambon-casino');
+
+INSERT INTO catalogue_product
+VALUES ('1566', 'Blanc de Poulet, Fines Herbes (4 Tranches)', 'Filets de poulet 91 %, eau, sel, dextrose, gélifiant : carraghénanes, fines herbes 0,2 % (persil, ciboulette, estragon), échalote, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/322/247/263/8490/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/263/8490/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222472638490/blanc-de-poulet-fines-herbes-4-tranches-casino');
+
+INSERT INTO catalogue_product
+VALUES ('1567', 'Le Bon Paris fumé', 'Jambon frais de porc, bouillon : eau, couennes de porc, oignons, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier, sel, dextrose de maïs, conservateur : nitrite de sodium, antioxydant : isoascorbate de sodium, fumée.', '3', '8', 'https://static.openfoodfacts.org/images/products/761/303/538/6792/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/761/303/538/6792/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/7613035386792/le-bon-paris-fume-herta');
+
+INSERT INTO catalogue_product
+VALUES ('1568', 'Blanc de Poulet, Doré au Four', 'Filet de poulet 88 %, eau, sel, dextrose de blé, arôme naturel, gélifiant : carraghénanes, conservateur : nitrite de sodium, colorant de surface : caramel ordinaire.', '3', '8', 'https://static.openfoodfacts.org/images/products/327/019/020/3407/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/327/019/020/3407/nutrition_fr.5.400.jpg', 'https://fr-en.openfoodfacts.org/product/3270190203407/blanc-de-poulet-dore-au-four-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1569', 'Bouchées de poulet tikka', 'Morceaux de hauts de cuisses de poulet désossés 75.4 %, eau, vinaigre blanc, épices et aromates (contient curcuma, coriandre, persil, ail), lait fermenté en poudre, lait écrémé en poudre, dextrose de blé, sel, amidon transformé de blé, maltodextrine de blé, concentré de tomates, jus de citron à base de concentré, extrait de malt (contient : seigle), colorant : extrait de paprika, épaississant : gomme xanthane, arômes naturels.', '4', '8', 'https://static.openfoodfacts.org/images/products/327/016/016/4325/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/327/016/016/4325/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3270160164325/bouchees-de-poulet-tikka-picard');
+
+INSERT INTO catalogue_product
+VALUES ('1570', 'Aiguillettes de poulet', '100% filet de poulet', '1', '8', 'https://static.openfoodfacts.org/images/products/20203610/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/20203610/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/20203610/aiguillettes-de-poulet-l-etal-du-volailler');
+
+INSERT INTO catalogue_product
+VALUES ('1571', 'Le Bon Paris à l,Étouffée', 'Jambon frais de porc, bouillon : eau, couennes de porc, oignons, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier, sel, dextrose de maïs, arômes naturels, conservateur : nitrite de sodium, antioxydant : isoascorbate de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/761/303/533/6100/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/761/303/533/6100/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/7613035336100/le-bon-paris-a-l-etouffee-herta');
+
+INSERT INTO catalogue_product
+VALUES ('1572', 'Le torchon Cuit à l,étouffée - 2 tranches', 'Jambon de porc, fond de porc (eau, os de porc, viande de porc, échalote, ail, épices, plantes aromatiques), sel, bouillon de légumes (eau, _céleri_, carotte, jus concentré de _céleri_, oignon, poireau), dextrose de maïs, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/621/6017/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/621/6017/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095756216017/le-torchon-cuit-a-l-etouffee-2-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1573', 'Carpaccio, huile olive & basilic', 'Viande de bœuf 81%, marinade 19%, (huile d’olive 41%, huiIe de colza,eau, basilic 10%, jus de citron concentré, sel, acidifiant : acide lactique, épice). * exprimé sur la marinade.  ', '2', '8', 'https://static.openfoodfacts.org/images/products/327/323/029/8968/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/327/323/029/8968/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3273230298968/carpaccio-huile-olive-basilic-bigard');
+
+INSERT INTO catalogue_product
+VALUES ('1574', 'Jambon supérieur (-25 % de sel)', 'Jambon de porc, sel, sirop de glucose, arômes, chlorure de potassium, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium.', '2', '8', 'https://static.openfoodfacts.org/images/products/20458478/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/20458478/nutrition_fr.25.400.jpg', 'https://fr-en.openfoodfacts.org/product/20458478/jambon-superieur-25-de-sel-saint-alby');
+
+INSERT INTO catalogue_product
+VALUES ('1575', 'Rillettes du Mans', 'Viande de porc (108 g de porc pour 100 g), gras de porc, sel, arôme naturel.', '5', '8', 'https://static.openfoodfacts.org/images/products/366/111/205/8869/front_fr.26.full.jpg', 'https://static.openfoodfacts.org/images/products/366/111/205/8869/nutrition_fr.23.400.jpg', 'https://fr-en.openfoodfacts.org/product/3661112058869/rillettes-du-mans-marque-repere');
+
+INSERT INTO catalogue_product
+VALUES ('1576', 'Le Paris sans couenne', 'Jambon de porc, sel, dextrose de maïs, extrait de levure, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/162/3018/front_fr.31.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/162/3018/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095751623018/le-paris-sans-couenne-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1577', 'J,aime le rôti de porc cuit - 2 tranches', '
+	Filet de porc issu d,animaux nourris sans OGM (< 0.9 %), sel, bouillon (eau, échalote, ail, épices, plantes aromatiques), dextrose, poivre (0.1%), antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.
+
+', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/790/5019/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/790/5019/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095757905019/j-aime-le-roti-de-porc-cuit-2-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1578', 'J,aime le jambon - 4 tranches', '
+	Jambon de porc issu d,animaux nourris sans OGM (< 0.9 %), sel, bouillon (eau, échalote, ail, épices, plantes aromatiques (0.02%)), dextrose, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.
+
+', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/790/1011/front_fr.24.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/790/1011/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095757901011/j-aime-le-jambon-4-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1579', 'J,aime le jambon - 2 tranches', '
+	Jambon de porc issu d,animaux nourris sans OGM (< 0.9 %), sel, bouillon (eau, échalote, ail, épices, plantes aromatiques (0.02%)), dextrose, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.
+
+', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/790/3015/front_fr.27.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/790/3015/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095757903015/j-aime-le-jambon-2-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1580', 'Original Knacki', 'Viande de porc : eau, gras de porc, _lactosérum_, sel, protéines de _lait_, fibres de _blé_, levure, protéines de pois, arôme (_céleri_, _blé_), colorants : carmin, extrait de paprika, antioxydant : isoascorbate de sodium, conservateur : nitrite de sodium, ferments, fumée.', '4', '8', 'https://static.openfoodfacts.org/images/products/761/303/492/6654/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/761/303/492/6654/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/7613034926654/original-knacki-herta');
+
+INSERT INTO catalogue_product
+VALUES ('1581', 'Jambon des Pyrénées', 'jambon de porc, sel, conservateur : nitrate de potassium.', '5', '8', 'https://static.openfoodfacts.org/images/products/306/716/362/1418/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/306/716/362/1418/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/3067163621418/jambon-des-pyrenees-sans-marque');
+
+INSERT INTO catalogue_product
+VALUES ('1582', 'Spécialité de Saucisson au Jambon', 'Jambon de porc, sel, poudre de _lait_, Porto rouge, dextrose de blé, _lactose_, arômes, épices et plante aromatique (ail, muscade), ferments, enveloppe: boyau collagénique non consommable, conservateurs: nitrite de sodium, et nitrate de potassium. 189 g de jambon de porc utilisé pour 100 g de produit fini.  ', '4', '8', 'https://static.openfoodfacts.org/images/products/356/007/048/2498/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/048/2498/nutrition_fr.42.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070482498/specialite-de-saucisson-au-jambon-carrefour-selection');
+
+INSERT INTO catalogue_product
+VALUES ('1583', 'Poulet', 'Poulet Blanc', '1', '8', 'https://static.openfoodfacts.org/images/products/20594558/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/20594558/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/20594558/poulet-l-etal-du-volailler');
+
+INSERT INTO catalogue_product
+VALUES ('1584', 'Chiffonade de Chorizo', 'Viande de porc (origine : UE) , sel , piment rouge 1,4% : _lait_ écrémé en poudre , protéines de _lait_ : sucre : épices et plantes aromatiques antioxydant : E316 , conservateurs : E250, E252 , colorant : E120 , ferments. 139 g de viande de porc ont été mis en œuvre pour fabriquer 100g de produit fini.', '5', '8', 'https://static.openfoodfacts.org/images/products/356/470/079/7860/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/356/470/079/7860/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3564700797860/chiffonade-de-chorizo-saint-azay');
+
+INSERT INTO catalogue_product
+VALUES ('1585', 'Les belles tranches Bacon', 'Filet de porc, sel, dextrose, sucre, épices ou extraits d,épices, arôme de fumée et/ou arômes, conservateurs : lactate de sodium, acétate de sodium, ascorbate de sodium, nitrate de potassium, nitrite de sodium', '4', '8', 'https://static.openfoodfacts.org/images/products/344/985/041/5089/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/344/985/041/5089/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3449850415089/les-belles-tranches-bacon-justin-bridou');
+
+INSERT INTO catalogue_product
+VALUES ('1586', '4 Véritables Knacks d,Alsace', 'viande de porc 44%, gras de porc, eau, viande de boeuf 4%, sel, épices et plantes aromatiques 1.6% (poivre blanc, carvi, coriandre, macis, muscade, ail, échalote), dextrose , arômes naturels, acidifiant : glucono-delta-lactone, antioxydant : acide ascorbique, conservateur : nitrite de sodium, enveloppe : boyau naturel de mouton. fumée au bois de hêtre. Porc et bœuf d,origine france', '5', '8', 'https://static.openfoodfacts.org/images/products/356/007/038/2828/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/038/2828/nutrition_fr.36.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070382828/4-veritables-knacks-d-alsace-reflets-de-france');
+
+INSERT INTO catalogue_product
+VALUES ('1587', 'Pâté doré de campagne', 'Gras de porc, foie de porc, gorges de porc, farine de _blé_, _oeuf_, couenne, sel, oignon en poudre, sucre, épices et plantes aromatiques (dont _moutarde_), arôme naturel de poivre et autres arômes naturels, Armagnac, ail et échalote en poudre.', '4', '8', 'https://static.openfoodfacts.org/images/products/302/169/060/1411/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/302/169/060/1411/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3021690601411/pate-dore-de-campagne-raynal-et-roquelaure');
+
+INSERT INTO catalogue_product
+VALUES ('1588', 'Allumettes de Lardons Fumés', 'poitrine de porc - sel - acidifiants : lactate de potassium et acétates de sodium - dextrose - antioxydant : érythorbate de sodium - conservateur : nitrite de sodium. Fumage au bois de hêtre.', '5', '8', 'https://static.openfoodfacts.org/images/products/322/247/267/6980/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/267/6980/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222472676980/allumettes-de-lardons-fumes-casino');
+
+INSERT INTO catalogue_product
+VALUES ('1589', 'Blanc de Poulet, Cuit à l,étouffée (4 tranches)', 'Viandes de filets de poulet 88 %, eau, conservateurs : lactate de sodium, nitrite de sodium, sel, arômes, dextrose, carraghénanes, arômes naturels, épices et plantes aromatiques, antioxydant : érythorbate de sodium, colorant de surface : caramel ordinaire', '4', '8', 'https://static.openfoodfacts.org/images/products/20021078/front_fr.41.full.jpg', 'https://static.openfoodfacts.org/images/products/20021078/nutrition_fr.37.400.jpg', 'https://fr-en.openfoodfacts.org/product/20021078/blanc-de-poulet-cuit-a-l-etouffee-4-tranches-saint-alby');
+
+INSERT INTO catalogue_product
+VALUES ('1590', 'La naucelloise Pâté de campagne La boîte', 'Foie de porc 40%, gras et gorge de porc, sel, poivre', '4', '8', 'https://static.openfoodfacts.org/images/products/335/218/000/0323/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/335/218/000/0323/nutrition_fr.21.400.jpg', 'https://fr-en.openfoodfacts.org/product/3352180000323/la-naucelloise-pate-de-campagne-la-boite');
+
+INSERT INTO catalogue_product
+VALUES ('1591', 'Steaks haches façon bouchere', 'Viande bovine (origine France) issue de l,agriculture biologique.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/039/254/7790/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/254/7790/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250392547790/steaks-haches-facon-bouchere-netto');
+
+INSERT INTO catalogue_product
+VALUES ('1592', 'Lardons nature', 'Poitrine de porc, sel, dextrose de blé et/ou de maïs, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/20466572/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/20466572/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/20466572/lardons-nature-saint-alby');
+
+INSERT INTO catalogue_product
+VALUES ('1593', 'Jambon supérieur découenné - dégraissé', 'Jambon de porc (Origine UE), eau, sel, dextrose, sirop de glucose, bouillon de porc déshydraté (eau, os, viande de porc), antioxydants : ascorbate de sodium, érythorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/359/671/035/3422/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/359/671/035/3422/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3596710353422/jambon-superieur-decouenne-degraisse-pouce');
+
+INSERT INTO catalogue_product
+VALUES ('1594', 'Lardons nature (sans couenne, sans cartilage)', 'Poitrine de porc 90 %, eau, dextrose, sel, conservateurs : lactate de potassium, érythorbate et nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/359/671/005/7719/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/359/671/005/7719/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3596710057719/lardons-nature-sans-couenne-sans-cartilage-auchan');
+
+INSERT INTO catalogue_product
+VALUES ('1595', 'Beignets Poulet', 'Viande de poulet 52 %, panure 30 % (eau, farine de blé et de riz, amidon transformé de blé, amidon de pomme de terre, sel, dextrose de blé, levure, poudre à lever : carbonate acides de sodium, diphosphates, colorants : curcumine, extrait de paprika), eau, chapelure de blé, fibres de blé, sel, arômes naturels. Huile de tournesol.', '3', '8', 'https://static.openfoodfacts.org/images/products/326/698/003/4641/front_fr.33.full.jpg', 'https://static.openfoodfacts.org/images/products/326/698/003/4641/nutrition_fr.31.400.jpg', 'https://fr-en.openfoodfacts.org/product/3266980034641/beignets-poulet-le-gaulois');
+
+INSERT INTO catalogue_product
+VALUES ('1596', 'Terrine de canard au poivre vert', 'Gorge de porc (France), canard (Union Européenne) 28% (foie maigre, viande, peau, graisse), foie de volaille (Union Européenne), lait, oeufs, poivre vert 2%, sel, Armagnac, épices, arômes naturels', '4', '8', 'https://static.openfoodfacts.org/images/products/336/895/942/0407/front_fr.28.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/942/0407/nutrition_fr.25.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368959420407/terrine-de-canard-au-poivre-vert-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1597', 'Jambon de Paris fumé', 'Jambon de porc (France), sel, bouillons (eau, os et viande de porc, oi, gnon, ail, poivre, muscade, clou de girofle, thym, laurier), sirop de, glucose, antioxydant :érythorbate de sodium, conservateur : nitrite de, sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/297/8178/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/297/8178/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256222978178/jambon-de-paris-fume-u');
+
+INSERT INTO catalogue_product
+VALUES ('1598', 'Mini saucisson sec aux piments pur porc', 'Viande de porc (Origine : France), sel, LACTOSE, épices (dont piments 0.38 %), dextrose, sucre, plante aromatique, conservateurs : nitrate de potassium et nitrite de sodium, ferments. Enveloppe : boyau collagénique de bovin 164 g de viande de porc mise en oeuvre pour 100g de produit fini. Traces éventuelles de gluten, oeufs, soja, céleri et de fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/615/7470/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/615/7470/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226157470/mini-saucisson-sec-aux-piments-pur-porc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1599', 'Mini saucisson sec aux noisettes pur porc', 'Viande de porc (Origine : France), NOISETTES grillées 5.3%, LACTOSE, sel, poivres, sucre, dextrose, macis, conservateurs : nitrate de potassium et nitrite de sodium, ail, ferments. Enveloppe : Boyau collagénique de bovin 154g de viande de porc mise en oeuvre pour 100g de produit fini. Traces éventuelles de gluten, oeufs, soja, céleri et d,autres fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/615/7463/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/615/7463/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226157463/mini-saucisson-sec-aux-noisettes-pur-porc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1600', 'Rosette de Lyon', 'Viande de porc (France), sel, LACTOSE, préparation à base de vin (vin arômatisé macardan, sel, arôme naturel), dextrose, épices et plantes aromatiques, sucre, conservateur : nitrate de potassium, ferments. 150g de viande de porc mis en oeuvre pour 100g de produit fini.
+Traces éventuelles de fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/543/3117/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/543/3117/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225433117/rosette-de-lyon-u');
+
+INSERT INTO catalogue_product
+VALUES ('1601', 'Emincés de volaille cuits kébab', 'Viande de cuisse de volaille (poulet et dinde) (79,3%) France, eau, épices et plantes aromatiques, arômes naturels, huile de tournesol, sirop de glucose, amidon, sel, colorant : E150a. 
+Traces éventuelles de lait, gluten, moutarde.', '1', '8', 'https://static.openfoodfacts.org/images/products/325/622/506/7800/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/506/7800/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225067800/eminces-de-volaille-cuits-kebab-u');
+
+INSERT INTO catalogue_product
+VALUES ('1602', 'Pâté de campagne breton au sel de Guérande IGP LR', 'Gorge de porc* 35.9%, foie de porc*, gras de porc*,couenne de porc*, oignons frais, blanc d,OEUF frais, sel de Guérande (1.6%), fécule de pomme de terre, poivre blanc, ail. * Issus de porc Label Rouge Français.
+Traces éventuelles de : gluten, lait, céleri, moutarde.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/489/8201/front_fr.23.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/489/8201/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954898201/pate-de-campagne-breton-au-sel-de-guerande-igp-lr-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1603', 'Escalope de dinde panée à la Normande,', 'Filets de dinde reconstitués traités en salaison 58% (filets de dinde (France) 36.8%, eau, sirop de glucose, fibres de BLÉ, protéines de SOJA, arôme naturel, sel, arôme naturel d,oignon avec autres arômes naturels), panure 22% (enrobant (farine de BLÉ, sel), chapelure ( farine de BLÉ, sel, levure, épices (paprika, curcuma)), sauce façon normande 20% (eau, jambon de dinde 4.5% (viande rouge de dinde, eau, sel, dextrose, protéines de pois, arôme naturel), EMMENTAL, champignon de Paris 2%, LAIT, gélatine de boeuf, amidon transformé de manioc, huile de colza, arômes naturels (GLUTEN), CRÈME, sucre, maltodextrine, sel, jus concentré de champignon 0.1%, gélifiant : carraghénanes, épaississant : gomme xanthane, conservateur : sorbate de potassium, jus concentré d,oignon, huile de tournesol). Cuit à l,huile de tournesol. Traces éventuelles de céleri, moutarde et oeuf.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/435/8350/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/435/8350/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224358350/escalope-de-dinde-panee-a-la-normande-u');
+
+INSERT INTO catalogue_product
+VALUES ('1604', 'Saucisson cuit à l,ail fumé supérieur', 'Viande de porc* (origine France) (74%), gras de porc* (origine France), blanc d,OEUF*, sel, boyau naturel de porc, ail* (0,4 %), poivre*, conservateur : nitrite de sodium. Fumé au bois de hêtre Traces éventuelles de céleri, fruits à coque, gluten, lait, moutarde, sulfites * Ingrédient issu de l,agriculture biologique', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/615/7494/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/615/7494/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226157494/saucisson-cuit-a-l-ail-fume-superieur-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1605', 'Saucisse sèche courbe pur porc', 'Viande de porc*, sel, LACTOSE*, dextrose*, saccharose*, conservateurs : nitrite de sodium, nitrate de potassium, ferments.Boyau naturel de porc. 175 g de viande de porc utilisée pour 100 g de produit fini. Traces éventuelles de fruits à coque. *Ingrédient issu de l agriculture biologique.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/140/0267/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/140/0267/nutrition_fr.21.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221400267/saucisse-seche-courbe-pur-porc-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1606', 'Terrine de campagne', 'Ingrédients : Gorge de porc*, foie de porc*, gras de porc*, LAIT*, blanc d,OEUF*, oignons*, sel, Armagnac*, farine de BLE*, gélatine de porc*, épices*, ail*, sucre*, laurier en poudre*, conservateur : nitrite de sodium. *Ingrédient issu de l,Agriculture biologique. Viande de porc origine France
+Traces éventuelles de fruits à coque, céleri, moutarde et graines de sésame.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/138/6639/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/138/6639/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221386639/terrine-de-campagne-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1607', 'Spécialité de saucisson sec', 'Jambon de porc (Union Européenne), sel, LACTOSE, poudre de LAIT, saccharose, dextrose, vin rouge, épices (poivres, muscade, ail), conservateurs : nitrate de potassium, nitrite de sodium, ferments. 180g de viande de porc mise en oeuvre pour 100g de produit fini', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/638/5026/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/638/5026/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226385026/specialite-de-saucisson-sec-u');
+
+INSERT INTO catalogue_product
+VALUES ('1608', 'Burgers ronds nature 80% Viande de Boeuf Française 20% de MG', 'Viande de boeuf hachée (origine France) 80%, protéines de SOJA réhydratées 18%, eau, fibres de BLE, arômes, sel, extrait de levure, betterave rouge déshydratée.Traces éventuelles d,oeuf, de lait et de céleri.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/542/9097/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/542/9097/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225429097/burgers-ronds-nature-80-viande-de-boeuf-francaise-20-de-mg-u');
+
+INSERT INTO catalogue_product
+VALUES ('1609', 'Saucisse cocktail fumées au poulet,', 'Viandes de poulet (origine France) 55%, peau de poulet (origine France) 20%, eau, protéines de SOJA, sel,acidifiant: lactate de potassium, sirop de glucose, dextrose, plantes aromatiques, arômes naturels, poireaux déshydratés, épices, colorants: extrait de paprika, antioxydant: acide ascorbique, conservateur: nitrite de sodium. Traces éventuelles de: gluten, lait, oeuf, fruits à coques, moutarde', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/573/5860/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/573/5860/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225735860/saucisse-cocktail-fumees-au-poulet-u');
+
+INSERT INTO catalogue_product
+VALUES ('1610', 'Véritable saucisse sèche Aveyronnaise à la perche', 'Viande de porc (Origine France), sel, LACTOSE, dextrose, poivre, conservateur : nitrate de potassium, ferments lactiques, boyau naturel de porc. 172 g de viande de porc utilisée pour 100 g de produit fini.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/282/8897/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/282/8897/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368952828897/veritable-saucisse-seche-aveyronnaise-a-la-perche-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1611', 'Saucisse sèche  pur porc courbe du Massif Centrale', 'Viande de porc (Origine France), sel, LACTOSE, dextrose, sucre, poivre, cognac, muscade, ail en poudre, conservateur : nitrite de sodium, ferments, boyau naturel de porc. 167 g de viande utilisée pour 100 g de produit fini.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/871/2046/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/871/2046/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368958712046/saucisse-seche-pur-porc-courbe-du-massif-centrale-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1612', 'Haché de poulet cuit', 'Viande de poulet 67% (origine France), eau, gluten de BLE, gras de poulet, dextrose, farine de BLE, fibre de blé, fécule de pomme de terre, arômes naturels, sel, vinaigre en poudre neutralisé.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/608/1249/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/608/1249/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226081249/hache-de-poulet-cuit-u');
+
+INSERT INTO catalogue_product
+VALUES ('1613', 'Roti de porc cuit aux herbes Viande de Porc Française', 'Longe de porc traitée en salaison (France), eau, sel, arômes naturels,, sirop de glucose, dextrose, épices et aromates (dont herbes de Proven, ce 0,1%, basilic 0,1%, origan 0,1%, thym 0,1%), conservateur : nitrite, de sodium, antioxydant : érythorbate de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/7851/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/7851/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220507851/roti-de-porc-cuit-aux-herbes-viande-de-porc-francaise-u');
+
+INSERT INTO catalogue_product
+VALUES ('1614', 'Plateau de charcuterie', 'Jambon sec supérieur (4 tranches) : jambon de porc (France), sel, dextrose, conservateur : nitrate de potassium. Rosette (6tranches) : viande de porc (France), sel, LACTOSE, épices, dextrose, ail, conservateurs : nitrate de potassium et nitrite de sodium, antioxydant : ascorbate de sodium, ferments. 140 g de viande mis en oeuvre pour 100 g de produit fini. Coppa (6 tranches) : échine de porc (Origine France), sel, épices (poivre, muscade), sucre, dextrose, conservateurs : nitrite de sodium et nitrate de potassium, antioxydant : acide ascorbique, ferments.
+Traces éventuelles de soja', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/573/5822/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/573/5822/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225735822/plateau-de-charcuterie-u');
+
+INSERT INTO catalogue_product
+VALUES ('1615', 'Saucisson sec pur porc', 'Viande de porc*, sel, LACTOSE*, épices*, dextrose*, saccharose*, conservateurs : nitritede sodium, nitrate de potassium, ferments. Boyau naturel de porc.167 g de viande de porc utilisée pour 100 g de produit fini. Traces éventuelles de fruits à coque. *Ingrédient issu de l agriculture biologique.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/036/9657/front_fr.25.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/036/9657/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220369657/saucisson-sec-pur-porc-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1616', 'Croque fromage,', 'Viande de dinde traitée en salaison 62% (viande de dinde (France) 47.1%, eau, farine de BLE, sel, fibres de BLE, arômes naturels), panure 21% (eau, farine de BLE, sel, levure, épices), fromage fondu 17% (FROMAGES 12,7% (dont EMMENTAL 5,1%), eau, BEURRE, CREME, épaississant : phosphate de diamidon, protéines de LAIT, sel émulsifiant : citrates de sodium, sel). Cuit à l,huile de tournesol.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/466/0514/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/466/0514/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224660514/2-croques-au-fromage-fondant-u');
+
+INSERT INTO catalogue_product
+VALUES ('1617', 'Chorizo doux supérieur pur porc', 'Viande et gras de porc (UE), piment d,Espagne 4,5%,sel, LACTOSE, épices et plantes aromatiques, saccharose,conservateurs : nitrate de potassium- ascorbate desodium, ferments.Boyau naturel de porc, conservateurs du boyau :E202, E235.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/465/8917/front_fr.30.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/465/8917/nutrition_fr.27.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224658917/chorizo-doux-superieur-pur-porc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1618', 'Saucisses cocktail chili', 'Saucisses fumées [viande de porc 53.4% (Origine : France), eau, plasma concentré de porc, gras et couenne de porc, sel, LACTOSE, épices et plantes aromatiques, arômes et arômes de fumée, colorant : extrait de paprika, stabilisant : triphosphates, gélifiants : carraghénanes - gomme guar - gomme xanthane, sirop de glucose, antioxydant: acide ascorbique, conservateur : nitrite de sodium], eau, sel. Traces éventuelles de céréales contenant du gluten.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/025/9552/front_fr.30.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/025/9552/nutrition_fr.27.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220259552/saucisses-cocktail-chili-u');
+
+INSERT INTO catalogue_product
+VALUES ('1619', 'Saucisses de Strasbourg', 'Viande de porc (Union européenne) 71%, eau, gras de porc, sel, protéines de LAIT, sucre, arôme, antioxydant : ascorbate de sodium, colorants : extrait de paprika et carmins, arôme de fumée, conservateur : nitrite de sodium, fumée liquide.
+Traces éventuelles de gluten, soja, oeuf', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/462/1201/front_fr.32.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/462/1201/nutrition_fr.29.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224621201/saucisses-de-strasbourg-u');
+
+INSERT INTO catalogue_product
+VALUES ('1620', 'Lardons allumettes fumés à teneur réduite en sel réduit et Oméga 3 Viande de Porc Française', 'Poitrine de porc ( Origine : France), acidifiant: lactate de potassium, sel, dextrose, conservateurs : nitrate de potassium et nitrite de sodium, antioxydant : ascorbate de sodium', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6724/front_fr.23.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6724/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506724/lardons-allumettes-fumes-a-teneur-reduite-en-sel-reduit-et-omega-3-viande-de-porc-francaise-u');
+
+INSERT INTO catalogue_product
+VALUES ('1621', 'Merguez forte boeuf/mouton,', 'Viande de boeuf (Origine : France) 76%, eau, viande de mouton (origine : UE ou hors UE) 7%, gras de mouton, sel, conservateurs : lactate de potassium, acétates de sodium , dextrose, épices,plantes aromatiques, arômes, colorants : carmins, extrait de paprika , antioxydants :acide ascorbique, ascorbate de sodium , huile de colza, piment de Cayenne, boyau de mouton. Traces éventuelles de gluten et céleri.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/017/1649/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/017/1649/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220171649/merguez-forte-boeuf-mouton-u');
+
+INSERT INTO catalogue_product
+VALUES ('1622', 'Croque jambon de dinde,', 'Jambon de dinde standard cuit 64% (viande de dinde (France) 50,5%, eau, sel, conservateurs : lactate de sodium et nitrite de sodium, sucre, gélifiant : carraghénanes et chlorure de potassium, arôme naturel, antioxydant : érythorbate de sodium), panure 21% (eau, farine de BLE, amidon transformé de BLE, GLUTEN DE BLE, amidon de BLE, sel, levure, épices), fromage fondu 15% (EMMENTAL 4,5%, FROMAGE 3,9%, eau, BEURRE, protéines de LAIT, sels émulsifiants : citrates de sodium et polyphosphates, poudre de SERUM, amidon transformé de pomme de terre, sel). Cuit à l,huile de tournesol.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/411/8558/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/411/8558/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224118558/croque-jambon-de-dinde-u');
+
+INSERT INTO catalogue_product
+VALUES ('1623', 'Cordon bleu de dinde,', 'Viande de dinde traitée en salaison 62% (viande de dinde (France) 49.6%, eau, farine de BLE, sel, fibres de BLE, arômes naturels), panure 18% (eau, farine de BLE, sel, levure, épices), fromage fondu 10% (EMMENTAL 3%, FROMAGE 2,6%, eau, BEURRE, protéines de LAIT, sels émulsifiants : citrates de sodium, stabilisant : polyphosphates, poudre de sérum, amidon transformé de pomme de terre, sel), jambon de dinde standard fumé cuit 10% (viande de dinde (France) 8,3%, eau, sel, arômes naturels, dextrose, épaississant : carraghénanes, sucre, antioxydant : ascorbate de sodium, épice, plante aromatique, conservateur : nitrite de sodium). Cuit à l,huile de tournesol.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/411/8534/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/411/8534/nutrition_fr.26.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224118534/cordon-bleu-de-dinde-u');
+
+INSERT INTO catalogue_product
+VALUES ('1624', 'Boudins blanc aux cèpes', 'Gras de porc (France), LAIT, viande de dinde, épaule de porc (France), blanc d,OEUF, cèpes réhydratés 3,8%, OEUF entier, oignons, sel, dextrose, protéines de LAIT, épices et aromates,stabilisant : triphosphate pentasodique, LACTOSERUM, arômes, saccharose, Porto, poireau. Enveloppe : boyau naturel de porc.', '4', '8', 'https://static.openfoodfacts.org/images/products/336/895/641/2351/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/641/2351/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368956412351/boudins-blanc-aux-cepes-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1625', 'Lardons de volaille fumés', 'Ingrédients : Viande de dinde (77 %) (France), eau, peau de poulet, sel, conservateurs : lactate de potassium, acétate de sodium, nitrite de sodium , protéines de LAIT, arômes naturels et arômes, dextrose de blé et/ou maïs, antioxydant : ascorbate de sodium 
+Traces éventuelles d,¿ufs et dérivés, soja et fruits à coque', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/167/4576/front_fr.26.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/167/4576/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221674576/lardons-de-volaille-fumes-u');
+
+INSERT INTO catalogue_product
+VALUES ('1626', 'Lardons de volaille nature', 'Ingrédients : Viande de dinde (77 %) (France), eau, peau de poulet, sel, conservateurs : lactate de potassium, acétate de sodium, nitrite de sodium , protéines de LAIT, arômes naturels et arômes, dextrose de blé et/ou maïs, antioxydant : ascorbate de sodium 
+Traces éventuelles d,oeufs et dérivés, soja et fruits à coque', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/167/4569/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/167/4569/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221674569/lardons-de-volaille-nature-u');
+
+INSERT INTO catalogue_product
+VALUES ('1627', 'Assortiment Alsacien', 'Saucisse de jambon à la pistache (33,5%) : viande de porc (Union européenne) 72% (dont jambon 20%), glace, PISTACHES (1,9%), sel, sirop de glucose, plasma de porc, stabilisants : E450- E451 - E452, épices (dont graines de MOUTARDE) et plantes aromatiques, dextrose, arômes, exhausteur de goût : E621, antioxydants: E300 et E301, acidifiant : E575, conservateur : E250. Saucisse de Lyon (33,3%) : viande de porc (Union européenne) 73.5%, glace, sel, sirop de glucose, plasma de porc, stabilisants : E450 - E451 - E452, dextrose, épices et plantes aromatiques, arômes, exhausteur de goût : E621 , antioxydants: E300 et E301 , acidifiant : E575, conservateur : E250. Saucisse de Lyon fine (33.2%) : viande de porc (Union européenne) 60,7%, glace, gras de porc (Union européenne), sel, plasma de porc, dextrose, épices et plantes aromatiques, stabilisants : E450 - E451 - E452, arômes, antioxydants: E300 - E301, acidifiant : E575, exhausteur de goût : E621, conservateur : E250. 
+Traces �', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/9138/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/9138/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220509138/assortiment-alsacien-u');
+
+INSERT INTO catalogue_product
+VALUES ('1628', 'Chorizo fort supérieur pur porc', 'Viande et gras de porc (UE), piment d,Espagne 4,5%,sel, LACTOSE, épices et plantes aromatiques, saccharose,conservateurs : nitrate de potassium- ascorbate desodium, ferments.Boyau naturel de porc, conservateurs du boyau :E202, E235.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/465/8931/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/465/8931/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224658931/chorizo-fort-superieur-pur-porc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1629', 'Dés de blanc de poulet cuits traités en salaison', 'Viande de filet de poulet (France), eau, sel, acidifiant : lactate de potassium, protéines de SOJA, dextrose de blé, arômes naturels, extrait de carotte, maltodextrine de blé, sirop de glucose de blé, extrait d,aromate, ail.
+102 g de viande de filet mis en oeuvre pour 100 g de produit fini.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2600/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2600/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722600/des-de-blanc-de-poulet-cuits-traites-en-salaison-u');
+
+INSERT INTO catalogue_product
+VALUES ('1630', 'Mousse de Canard au Porto', 'Gras de porc (origine France), foie maigre de canard 22 % (origine UE), foie de poulet (origine UE), graisse de canard 7,8% (origine UE), CREME, OEUFS, farine de BLE, sel, sucre, Porto (1 %), poivre, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium. Nappage : graisse de porc, colorant : extrait de carotte. Traces de moutarde.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/027/1554/front_fr.30.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/027/1554/nutrition_fr.27.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220271554/mousse-de-canard-au-porto-u');
+
+INSERT INTO catalogue_product
+VALUES ('1631', 'Mousse de foie pur porc', 'Gras de porc (origine France), foie de porc 32 % (origine France), eau, plantes aromatiques déshydratées, sel, dextrose, farine de BLE, arômes naturels, conservateur : nitrite de sodium. Gelée de couverture : eau, gélatine de porc, sel, arômes naturels. Traces de lait, d,oeufs et de moutarde.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/027/1561/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/027/1561/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220271561/mousse-de-foie-pur-porc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1632', 'Terrine de campagne pur porc', 'Gorge de porc (France), foie de porc (France), viande de porc 20% (France), eau, sel, oignons, épices, OEUFS, farine de BLE, sucre, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium, coloration de surface : caramel ordinaire', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/027/1547/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/027/1547/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220271547/terrine-de-campagne-pur-porc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1633', 'Boudin Noir aux oignons', 'Sang de porc 36.5% (origine France), oignons 34%, gras de porc (origine France), couenne (origine France), sel, sucre, épices et plantes aromatiques, boyau naturel de porc. Traces éventuelles de céréales contenant du gluten, lait, oeufs, moutarde, fruits à coque, mollusques.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/003/1141/front_fr.30.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/003/1141/nutrition_fr.27.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220031141/boudin-noir-aux-oignons-u');
+
+INSERT INTO catalogue_product
+VALUES ('1634', 'Boudin blanc nature', 'LAIT, viande de porc ( France ) 28% gras de porc( France), CREME fraîche, blanc d,OEUF, OEUF entier, oignons, dextrose , sel, protéines de LAIT, stabilisant : triphosphate pentasodique, épices et plantes aromatiques, LACTOSERUM, exhausteur de goût : monoglutamate de sodium, arômes naturels, saccharose, Porto. Enveloppe : boyau naturel de porc.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/003/1134/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/003/1134/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220031134/boudin-blanc-nature-u');
+
+INSERT INTO catalogue_product
+VALUES ('1635', 'Préparation surgelée à base de 80% de viande hachée de boeuf avec desprotéines végétales', 'Viande de boeuf hachée (France) 80%, protéines de SOJA réhydratées 15%, eau, arômes, sel.Traces éventuelles de céréales contenant du gluten, lait et céleri.Pourcentage de matières grasses inférieur à 15.Rapport collagène sur protéines de viande inférieur à 25.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/417/0167/front_fr.32.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/417/0167/nutrition_fr.29.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224170167/preparation-surgelee-a-base-de-80-de-viande-hachee-de-boeuf-avec-desproteines-vegetales-u');
+
+INSERT INTO catalogue_product
+VALUES ('1636', 'Saucisse sèche pur porc à l,ancienne', 'Viande de porc dont jambon 20 %, sel, LACTOSE, saccharose, dextrose, épices et plantes aromatiques, alcool, conservateur : nitrate de potassium, ferments de maturation, boyau naturel de porc. 180 g de viande utilisée pour 100 g de produit fini
+Traces potentielles de fruits à coques', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/350/0730/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/350/0730/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368953500730/saucisse-seche-pur-porc-a-l-ancienne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1637', 'Saucisson sec pur porc à l,ancienne', 'Viande de porc dont jambon 20 %, sel, saccharose, LACTOSE, dextrose, épices et plantes aromatiques, alcool, conservateur : nitrate de potassium, ferments de maturation, boyau naturel de porc. 160 g de viande utilisée pour 100 g de produit fini
+Traces potentielles de fruits à coques', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/350/0723/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/350/0723/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368953500723/saucisson-sec-pur-porc-a-l-ancienne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1638', 'Knacks de poulet fumés au bois de hêtre', 'Viande séparée mécaniquement de poulet 49 %, viande de poulet : 16%, peau de poulet, eau, dextrose, sirop de glucose, sel, arômes (dont LAIT), oignon, ail, CELERI, poireau, conservateur : nitrite de sodium, épaississant : gomme guar, antioxydant : acide ascorbique, acidifiants : lactate de potassium et acétate de potassium, colorant : extrait de paprika', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/017/3575/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/017/3575/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220173575/knacks-de-poulet-fumes-au-bois-de-hetre-u');
+
+INSERT INTO catalogue_product
+VALUES ('1639', 'Saucisses cocktail', 'Viande de porc (48%) (France), eau, viande de volaille (dinde, poulet) (France), gras de porc, plasma de porc, protéines de LAIT, sel, sucre, arômes naturels, épices, antioxydant : érythorbate de sodium, colorants : extrait de paprika et carmins, conservateur : nitrite de sodium. 
+Traces éventuelles de : soja, gluten, oeuf.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/111/1545/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/111/1545/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221111545/saucisses-cocktail-u');
+
+INSERT INTO catalogue_product
+VALUES ('1640', 'Plateau raclette', 'Fromage à raclette 300 g : LAIT de vache pasteurisé (origine France), sel, coagulant, ferments lactiques et de surface, colorant de la croûte : rocou, conservateur (croûte) : natamycine. Jambon sec 80 g : jambon de porc (origine France), sel, dextrose, conservateur : nitrate de potassium. Bacon sel sec fumé au bois de hêtre 40 g : Filet de porc (origine France), sel, dextrose, saccharose, épices, arôme de fumée, conservateurs:, nitrate de potassium, nitrite de sodium. Rosette 40g : Viande de porc (origine France) (138 g de viande mis en oeuvre pour 100g de produit fini), sel, lactose (LAIT), dextrose, épices, ail, antioxydant: érythorbate de sodium, ferments, conservateurs : nitrate de potassium et nitrite de sodium. Traces éventuelles de fruits à coques, soja, céleri et de moutarde', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/036/9824/front_fr.19.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/036/9824/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220369824/plateau-raclette-u');
+
+INSERT INTO catalogue_product
+VALUES ('1641', 'Boudin noir aux pommes', 'Sang de porc 34.5% (origine:France), oignons, gras de porc (origine:France), purée de pomme 11.6%, couenne (origine France), sel, sucre, épices et plantes aromatiques, boyau naturel de porc. Traces éventuelles de céréales contenant du gluten, lait, oeufs, moutarde, fruits à coque, mollusques.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/076/4278/front_fr.24.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/076/4278/nutrition_fr.21.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220764278/boudin-noir-aux-pommes-u');
+
+INSERT INTO catalogue_product
+VALUES ('1642', 'Poulet au curry et riz basmati', 'Riz basmati cuisiné 43.3% : riz basmati cuit 37% (eau, riz basmati), courgette, oignon préfrit (oignon, huile de tournesol), huile de tournesol, poivre, sel. Sauce au curry 40% : eau, jus de pomme à base de concentré, CREME fraîche (France) 4%, oignon, amidon de maïs, arôme naturel (contient LAIT), préparation culinaire tikka massala (mélange d,épices et de plantes aromatiques, eau, huile de colza, pâte de tomate, sel, vinaigre d,alcool, sucre, oignon en poudre, noix de coco en poudre, farine de maïs, jus de citron concentré), LAIT entier en poudre, huile de tournesol, raisin sec 0.4% (raisin sec, agent d,enrobage : huile de coton), ail en purée, curry 0,1%, coriandre 0.09%, paprika, sel, poivre. Morceau de filet de poulet traité en salaison rôti 16.7% : filet de poulet (Pologne) 14%, eau, amidon de tapioca, dextrose, sel.', '1', '8', 'https://static.openfoodfacts.org/images/products/325/622/017/7238/front_fr.40.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/017/7238/nutrition_fr.37.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220177238/poulet-au-curry-et-riz-basmati-u');
+
+INSERT INTO catalogue_product
+VALUES ('1643', 'Délice de charolais', 'Viande de boeuf Charolais (Origine : France), sel, LACTOSE, poudre de LAIT écrémé, vin, dextrose, sirop de glucose, épices, ail, antioxydant : érythorbate de sodium, ferments, conservateurs : nitrate de potassium et nitrite de sodium. 138g de viande de boeuf mise en oeuvre pour 100g de produit fini Traces éventuelles d oeufs, soja et pistaches.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/615/7449/front_fr.27.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/615/7449/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226157449/delice-de-charolais-u');
+
+INSERT INTO catalogue_product
+VALUES ('1644', 'Saucisson à l,ail qualité supérieure fumé ', 'viande de porc (Union Européenne), eau, gras de porc (Union Européenne), sel, épices (dont MOUTARDE), plante aromatique (ail en poudre 0,5%) et extrait d,épice, plasma de porc déshydraté, émulsifiant : diphosphates, sirop de glucose, dextrose, arôme de fumée, conservateur : nitrite de sodium, colorant : carmins. Fumée de bois de hêtre.
+Traces éventuelles de céréales contenant du gluten, oeuf, lait et fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/573/8359/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/573/8359/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225738359/saucisson-a-l-ail-qualite-superieure-fume-u');
+
+INSERT INTO catalogue_product
+VALUES ('1645', 'Saucisson à l,ail qualité supérieure nature', 'Viande de porc (Union Européenne), eau, gras de porc (Union Européenne), sel, épices (dont MOUTARDE), plante aromatique (dont ail en poudre 0,5%) et extrait d,épice, plasma de porc déshydraté, émulsifiant : diphosphates, sirop de glucose, dextrose, conservateur : nitrite de sodium, colorant : carmins.
+Traces éventuelles de céréales contenant du gluten, oeuf, lait et fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/573/8342/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/573/8342/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225738342/saucisson-a-l-ail-qualite-superieure-nature-u');
+
+INSERT INTO catalogue_product
+VALUES ('1646', 'Jambon de Bayonne', 'Jambon frais de porc (origine France), sel, Conservateur : nitrate de potassium, saccharose, dextrose, extrait d,épices Traces éventuelles de lait et soja. Salé au sel de Salies de Béarn. Séché et affiné dans le bassin de l,Adour. Certifié par CERTISUD 64000 PAU.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6410/front_fr.24.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6410/nutrition_fr.28.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506410/jambon-de-bayonne-u');
+
+INSERT INTO catalogue_product
+VALUES ('1647', 'Saucisse sèche pur porc à croquer', 'Viande de porc (Origine France), LACTOSE, sel, poivres, sucre, dextrose, ail, macis, conservateurs : nitrate de potassium et nitrite de sodium, girofle, ferments. Enveloppe : boyau collagénique (collagène de bovin, glycérine, cellulose). 175 g de viande de porc mis en oeuvre pour 100 g de produit fini. Traces éventuelles de gluten, oeufs, soja, céleri et fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/076/4551/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/076/4551/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220764551/saucisse-seche-pur-porc-a-croquer-u');
+
+INSERT INTO catalogue_product
+VALUES ('1648', 'Foies de volaille confits cuit dans graisse de canard', 'Foies de poulet : 82 %, graisse de canard : 15%, sel, arômes, conservateur : nitrite de sodium, antioxydants : érythorbate de sodium, extrait de romarin.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/462/1232/front_fr.25.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/462/1232/nutrition_fr.29.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224621232/foies-de-volaille-confits-cuit-dans-graisse-de-canard-u');
+
+INSERT INTO catalogue_product
+VALUES ('1649', 'Porc & Boeuf', 'Viande de porc (139 g mis en œuvre pour 100 g de produit fini), viande de bœuf (34 g mis en œuvre pour 100 g de produit fini), sel, _lactose_, saccharose, dextrose, épices, arômes, plantes aromatiques, ferments, conservateurs : nitrite de sodium - nitrate de potassium. Boyau en fibre animale.', '4', '8', 'https://static.openfoodfacts.org/images/products/337/522/020/0446/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/337/522/020/0446/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3375220200446/porc-boeuf-henri-raffin');
+
+INSERT INTO catalogue_product
+VALUES ('1650', 'Porc & Canard', 'Viande de porc (139 g mis en œuvre pour 100 g de produit fini), viande de canard (34 g mis en œuvre pour 100 g de produit fini), _lactose_, sel, saccharose, dextrose, épices, arômes, maltodextrine de pomme de terre, ferments, conservateurs : nitrite de sodium - nitrate de potassium. Boyau en fibre animale.', '4', '8', 'https://static.openfoodfacts.org/images/products/337/522/020/0453/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/337/522/020/0453/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3375220200453/porc-canard-henri-raffin');
+
+INSERT INTO catalogue_product
+VALUES ('1651', 'Jambon cuit sans couenne', 'viande de porc reconstituée, sel, dextrose, stabilisant : diphosphates, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/20012595/front_fr.37.full.jpg', 'https://static.openfoodfacts.org/images/products/20012595/nutrition_fr.5.400.jpg', 'https://fr-en.openfoodfacts.org/product/20012595/jambon-cuit-sans-couenne-dulano');
+
+INSERT INTO catalogue_product
+VALUES ('1652', 'Dés de poulet', 'Viande de poulet (95%), sel nitrite pour saumure (sel, conservateur : nitrite de sodium), extraits d,épices, épices, dextrose, stabilisant : diphosphates , antioxydant : ascorbate de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/20400590/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/20400590/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/20400590/des-de-poulet-dulano');
+
+INSERT INTO catalogue_product
+VALUES ('1653', 'Mon Paris sans couenne', 'Jambon de porc, sel, dextrose, conservateurs : ascorbate de sodium, nitrite de sodium', '3', '8', 'https://static.openfoodfacts.org/images/products/325/039/031/3250/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/031/3250/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250390313250/mon-paris-sans-couenne-monique-ranou');
+
+INSERT INTO catalogue_product
+VALUES ('1654', 'Emincés Nature', 'viande de porc 84%, eau, sel, dextrose, acidifiants : lactate de potassium, acétate de sodium, conservateurs : ascorbate de sodium, nitrite de sodium, chlorure de potassium, arômes.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/039/115/6429/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/115/6429/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250391156429/eminces-nature-monique-ranou');
+
+INSERT INTO catalogue_product
+VALUES ('1655', 'Jambon cuit supérieur Label Rouge sans couenne', '', '3', '8', 'https://static.openfoodfacts.org/images/products/318/094/007/5423/front_fr.36.full.jpg', 'https://static.openfoodfacts.org/images/products/318/094/007/5423/nutrition_fr.29.400.jpg', 'https://fr-en.openfoodfacts.org/product/3180940075423/jambon-cuit-superieur-label-rouge-sans-couenne-madrange');
+
+INSERT INTO catalogue_product
+VALUES ('1656', 'Mini pavé nature porc', 'Viande de porc du Sud-Ouest, sel, sirop de glucose, épices, ail, dextrose, conservateurs : nitrate de potassium, nitrite de sodium, ferments. Boyau naturel de porc. Poudre de fleurage : talc, carbonate de calcium. 152g de viande de porc utilisée pour 100g de produit fini.', '5', '8', 'https://static.openfoodfacts.org/images/products/333/972/041/8121/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/333/972/041/8121/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3339720418121/mini-pave-nature-porc-montagne-noire');
+
+INSERT INTO catalogue_product
+VALUES ('1657', 'Blanc de poulet aux fines herbes', 'Filet de poulet 89 %, eau, sel, sirop de glucose, herbes 0,55 % (persil, herbes de Provence, ciboulette, basilic), gélifiant : algues euchema transformées , lactose (_lait_), arômes, dextrose, antioxydant : érythorbate de sodium , conservateur : nitrite de sodium , colorant : caramel ordinaire.', '3', '8', 'https://static.openfoodfacts.org/images/products/359/671/030/8217/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/359/671/030/8217/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3596710308217/blanc-de-poulet-aux-fines-herbes-auchan');
+
+INSERT INTO catalogue_product
+VALUES ('1658', 'SAUCI- CROCQ MINI SAUCISSE SECHE AUX PIMENTS', '', '5', '8', 'https://static.openfoodfacts.org/images/products/327/255/000/1166/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/327/255/000/1166/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3272550001166/sauci-crocq-mini-saucisse-seche-aux-piments-roches-blanches');
+
+INSERT INTO catalogue_product
+VALUES ('1659', 'Mes Lardons Fumés VPF', 'Poitrine de porc origine France, sel, arômes naturels, sucre issu de betterave, ferments. 
+*L,action des ferments génère l,apparition de nitrites d,origine végétale pour préserver toutes les qualités du produit.', '5', '8', 'https://static.openfoodfacts.org/images/products/318/094/008/1226/front_fr.28.full.jpg', 'https://static.openfoodfacts.org/images/products/318/094/008/1226/nutrition_fr.30.400.jpg', 'https://fr-en.openfoodfacts.org/product/3180940081226/mes-lardons-fumes-vpf-madrange');
+
+INSERT INTO catalogue_product
+VALUES ('1660', 'Mes Lardons Nature VPF', 'Poitrine de porc origine France, sel, arômes naturels, sucre issu de betterave, ferments.
+*L,action des ferments génère l,apparition de nitrites d,origine végétale pour préserver toutes les qualités du produit.', '5', '8', 'https://static.openfoodfacts.org/images/products/318/094/008/1219/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/318/094/008/1219/nutrition_fr.23.400.jpg', 'https://fr-en.openfoodfacts.org/product/3180940081219/mes-lardons-nature-vpf-madrange');
+
+INSERT INTO catalogue_product
+VALUES ('1661', '6  Véritables Merguez', 'Viande de bœuf 67,2 % (origine France) et mouton 16,8 %, eau, gras de bœuf et mouton, dextrose, sel, conservateurs : lactate de potassium, acétate de sodium, épices, colorants : rouge de betterave - carmins, arômes, poudre d,ail, antioxydants : acide ascorbique et ascorbate de sodium. Boyau naturel de mouton.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/456/033/7596/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/325/456/033/7596/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3254560337596/6-veritables-merguez-auchan');
+
+INSERT INTO catalogue_product
+VALUES ('1662', 'Pâté Gascon à l,Armagnac et aux Pruneaux d,Agen', 'Gorge de porc, viande de porc, viande de canard, pruneaux d,Agen 11,5 %, échalotes, bouillon de volaille (eau, carcasses de volailles, oignons, sel, poivre), foie de porc, sel, ail, gélatine de porc, Armagnac 0,6 % (armagnac, sel, arôme naturel de poivre, colorant: caramel), poivre.', '4', '8', 'https://static.openfoodfacts.org/images/products/333/072/065/0351/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/333/072/065/0351/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3330720650351/pate-gascon-a-l-armagnac-et-aux-pruneaux-d-agen-lucien-georgelin');
+
+INSERT INTO catalogue_product
+VALUES ('1663', 'Pâté de Bourgogne au Lapin et à la Moutarde Ancienne de Dijon', 'Gorge de porc, viande de lapin 20%, viande de dinde, oignons, _moutarde_ de Dijon à l,ancienne 11% (eau, vinaigre d,alcool, graines et téguments de _moutarde_, sel, acidifiant : E330, arômes, antioxydant : 5224 (_sulfites_), curcuma), gélatine de porc, sel, ail, rhum, poivre.', '4', '8', 'https://static.openfoodfacts.org/images/products/333/072/065/0313/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/333/072/065/0313/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3330720650313/pate-de-bourgogne-au-lapin-et-a-la-moutarde-ancienne-de-dijon-lucien-georgelin');
+
+INSERT INTO catalogue_product
+VALUES ('1664', 'Pâté de Jambon', 'Viande de porc dont jambon 20 %, plasma de porc, sel, épice et aromate, farine de _noisette_, arôme, conservateur : nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/343/435/000/0255/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/343/435/000/0255/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3434350000255/pate-de-jambon-jean-floc-h');
+
+INSERT INTO catalogue_product
+VALUES ('1665', 'Confit de Foie de Volaille au Poivre Vert', 'Foie de Volaille 48 % - gras de porc - eau - poivre vert 1,5 % - sel - arôme naturel - fond de volaille aromatisé (sel - dextrose - arôme - graisse et viande de poulet).', '5', '8', 'https://static.openfoodfacts.org/images/products/326/385/182/7111/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/326/385/182/7111/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3263851827111/confit-de-foie-de-volaille-au-poivre-vert-leader-price');
+
+INSERT INTO catalogue_product
+VALUES ('1666', 'Jambon Serrano Espagnol Bodega', 'Jambon de porc, Sel, Dextrose et conservateurs (nitrite de sodium, nitrate de potassium)', '4', '8', 'https://static.openfoodfacts.org/images/products/841/006/018/5913/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/841/006/018/5913/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/8410060185913/jambon-serrano-espagnol-bodega-espuna');
+
+INSERT INTO catalogue_product
+VALUES ('1667', 'Prosciutto Cotto', 'Cuisse de porc, sel, sucre, arômes naturels d,épices et d,aromates, antioxydant : acide ascorbique, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/339/641/004/7122/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/339/641/004/7122/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3396410047122/prosciutto-cotto-bonneterre');
+
+INSERT INTO catalogue_product
+VALUES ('1668', 'Knacki Ball Original', 'Viande de porc, eau, gras de porc, _lactosérum_, sel, protéines de _lait_ (0,85 %), arômes (_céleri_, _blé_), dextrose, levure, fibre de _blé_, protéine de pois, colorants : carmins, extrait de paprika, ferment, antioxydant : isoascorbate de sodium, conservateur : nitrite de sodium, fumée. Porc 74 %.', '5', '8', 'https://static.openfoodfacts.org/images/products/761/303/471/9126/front_fr.29.full.jpg', 'https://static.openfoodfacts.org/images/products/761/303/471/9126/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/7613034719126/knacki-ball-original-herta');
+
+INSERT INTO catalogue_product
+VALUES ('1669', 'Paupiettes pure dinde Halal', '', '2', '8', 'https://static.openfoodfacts.org/images/products/329/198/032/4041/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/329/198/032/4041/nutrition_fr.5.400.jpg', 'https://fr-en.openfoodfacts.org/product/3291980324041/paupiettes-pure-dinde-halal-snv');
+
+INSERT INTO catalogue_product
+VALUES ('1670', 'Salami de dinde avec gras de bœuf', 'Viande de dinde Halal, gras de bœuf Halal, sel, sirop de glucose, extrait d,épices (paprika, poivre), dextrose de maïs, épices, antioxydant : E301, conservateurs : E250, E202, ferments de maturation, fumé au bois de hêtre.', '5', '8', 'https://static.openfoodfacts.org/images/products/370/014/140/3599/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/370/014/140/3599/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/3700141403599/salami-de-dinde-avec-gras-de-boeuf-sans-marque');
+
+INSERT INTO catalogue_product
+VALUES ('1671', 'Hindi Salam au fromage', 'Viande de dinde, gras de bœuf, fromage 8 % (LAIT, sel, présure), sel, sirop de glucose, extrait d,épices (paprika, poivre), dextrose de maïs, épices, antioxydant : E301, conservateur : E250, ferments de maturation, fumé au bois de hêtre.', '5', '8', 'https://static.openfoodfacts.org/images/products/343/659/813/6321/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/343/659/813/6321/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3436598136321/hindi-salam-au-fromage-oriental-viandes');
+
+INSERT INTO catalogue_product
+VALUES ('1672', 'Dés de chorizo - 120g', 'Viande de porc et gras de porc (94%), paprika, sel, dextrose de maïs, ail, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/309/575/662/0012/front_fr.28.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/662/0012/nutrition_fr.21.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095756620012/des-de-chorizo-120g-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1673', 'Pâté de Foie de Volaille', 'Peau de dinde halal, foie de dinde halal (28 %), eau, fécule de pomme de terre, _lactose_, protéine de _lait_, protéines de _soja_, sel, stabilisants (E450, E451), conservateur (E250), dextrose, antioxydants (E300, E316), épices, arômes naturels.', '5', '8', 'https://static.openfoodfacts.org/images/products/351/269/000/0828/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/351/269/000/0828/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3512690000828/pate-de-foie-de-volaille-isla-delice');
+
+INSERT INTO catalogue_product
+VALUES ('1674', 'Brochettes de porc gourmandes', 'Viande de porc 71 %, poivron, barde de porc, eau, acidifiants : acétates de sodium, citrates de sodium, acide citrique , sel, arômes, fibres végétales, antioxydants : acide ascorbique, ascorbate de sodium, poivre.', '2', '8', 'https://static.openfoodfacts.org/images/products/324/541/556/5257/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/324/541/556/5257/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3245415565257/brochettes-de-porc-gourmandes-chez-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1675', 'Rôti de porc - 25% de sel Viande de Porc Française', 'Longe de porc traitée en salaison (France), eau, sel, arômes naturels, sirop de glucose, dextrose, poivre, ail frais, conservateur : nitrite de sodium, antioxydant : érythorbate de sodium, colorant : caramel ordinaire.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/299/5540/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/299/5540/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256222995540/roti-de-porc-25-de-sel-viande-de-porc-francaise-u');
+
+INSERT INTO catalogue_product
+VALUES ('1676', 'Nuggets au poulet croustillants bio', 'Viande de volaille 50% (viande de poulet 51% minimum soit 25% du total, viande de dinde), eau, chapelure (farine de _blé_, levure, sel), huile de tournesol, peau de poulet, farine de _blé_, flocon de pomme de terre (dont extrait de romarin), sel, dextrose de maïs, agar agar, poivre.', '3', '8', 'https://static.openfoodfacts.org/images/products/342/221/043/6245/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/342/221/043/6245/nutrition_fr.34.400.jpg', 'https://fr-en.openfoodfacts.org/product/3422210436245/nuggets-au-poulet-croustillants-bio-nature-de-france');
+
+INSERT INTO catalogue_product
+VALUES ('1677', 'Jambon de San Daniele, 14 mois d,affinage,', 'Jambon de porc italien, sel de mer.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/115/7998/front_fr.19.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/115/7998/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368951157998/jambon-de-san-daniele-14-mois-d-affinage-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1678', 'Blanc de volaille', 'Viande de poule* (France) 90%, eau, sel, dextrose*, arômes naturels, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.*Ingrédient issu de l,agriculture biologique.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/360/6513/front_fr.38.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/360/6513/nutrition_fr.42.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256223606513/blanc-de-volaille-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1679', 'Saucisses de volaille (6 saucisses)', 'Viande de volaille 63 %, eau, gras de volaille, peau de volaille, sel, dextrose de maïs, arôme, coriandre, antioxidant : ascorbate de sodium, colorants : extrait de paprika et carmin de cochenille, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/356/007/054/3663/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/054/3663/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070543663/saucisses-de-volaille-6-saucisses-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1680', 'Effeuillés steaks pur boeuf race limousin 10%mg VBF', '100% viande bovine française race limousine', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/506/7817/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/506/7817/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225067817/effeuilles-steaks-pur-boeuf-race-limousin-10-mg-vbf-u');
+
+INSERT INTO catalogue_product
+VALUES ('1681', 'Steak haché façon bouchère race salers BBC 15% de MG', '100% viande bovine Origine France.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/542/7338/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/542/7338/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225427338/steak-hache-facon-bouchere-race-salers-bbc-15-de-mg-u');
+
+INSERT INTO catalogue_product
+VALUES ('1682', 'Blanc de poulet fumé au bois hêtre', 'Filet de poulet 88,5%, eau, sel, dextrose, arômes naturels, gélifiant : algues euchéma transformées, conservateur : nitrite de sodium.Traces éventuelles de blé, lait, oeuf et orge.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2532/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2532/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722532/blanc-de-poulet-fume-au-bois-hetre-u');
+
+INSERT INTO catalogue_product
+VALUES ('1683', 'Rillettes de poulet rôti en cocotte', 'Viande de poulet (origine France) 90 %, graisse de canard (origine UE), plantes aromatiques, carottes, vinaigre d,alcool, miel, arôme, colorant : caramel ordinaire, sel, poivre', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/638/5019/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/638/5019/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256226385019/rillettes-de-poulet-roti-en-cocotte-u');
+
+INSERT INTO catalogue_product
+VALUES ('1684', 'Boulettes de viande Kefta cuites', 'Viande bovine (France) 42.5%, viande de mouton et d,agneau (Irlande, Nouvelle Zélande) 18.7%, eau, chapelure [farine de BLE(gluten), sel, levure], oignon 4.8%, préparation à base d,OEUF liquide pasteurisée (blanc d,OEUF liquide, OEUF entier liquide, sel), amidon de pomme de terre, boulgour de BLE (gluten), concentré de tomate, ail, flocon de tomate, huile d,olive extra vierge, sel, menthe 0.2%, cumin 0.1%, gingembre 0.1%, paprika 0.1%, persil, poivre noir, piment de Cayenne.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/435/8299/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/435/8299/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224358299/boulettes-de-viande-kefta-cuites-u');
+
+INSERT INTO catalogue_product
+VALUES ('1685', 'Boulettes de boeuf Viande de Boeuf Française oignons cuites', 'Viande bovine (France) 63%, eau, oignons, chapelure [farine de BLE(gluten), sel, levure], flocons de pommes de terre, préparation à base d,oeuf liquide pasteurisée (blanc d,oeuf liquide, oeuf entier liquide, sel), amidon de pommes de terre, sel, extrait de levure, poivre noir.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/435/8282/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/435/8282/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224358282/boulettes-de-boeuf-viande-de-boeuf-francaise-oignons-cuites-u');
+
+INSERT INTO catalogue_product
+VALUES ('1686', 'Saucisson à l,ail fumé à l,ancienne', 'Viande de porc 94% (France), blanc d,OEUFS, sel, dextrose, ail 0,6%, épices, conservateurs : nitrite de sodium et érythorbate de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/336/895/460/0286/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/460/0286/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954600286/saucisson-a-l-ail-fume-a-l-ancienne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1687', 'Saucisson sec pur porc Mini Croque', 'Viande de porc (Origine France), LACTOSE, sel, poivres, sucre, dextrose, ail, macis, conservateurs : nitrate de potassium et nitrite de sodium, girofle, ferments. Enveloppe : boyau collagénique (collagène de bovin, glycérine, cellulose). 162 g de viande de porc mis en oeuvre pour 100 g de produit fini. Traces éventuelles de gluten, oeufs, soja, céleri et fruits à coque.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/9121/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/9121/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220509121/saucisson-sec-pur-porc-mini-croque-u');
+
+INSERT INTO catalogue_product
+VALUES ('1688', 'Jambon fumé supérieur avec couenne', 'Jambon (origine France), sel, dextrose, arômes, arômes de fumée, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/463/2511/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/463/2511/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224632511/jambon-fume-superieur-avec-couenne-u');
+
+INSERT INTO catalogue_product
+VALUES ('1689', 'Saucisson sec de montagne pur porc label rouge', 'Viande de porc (France), sel, sirop de glucose, épices, dextrose de maïs, ail, conservateurs : nitrate de potassium et nitrite de sodium, ferments. Boyau naturel de porc. Poudre de fleurage : talc, carbonate de calcium. 150 g de viande de porc utilisée pour 100 g de produit fini. Traces éventuelles de lactose.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/453/0552/front_fr.27.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/453/0552/nutrition_fr.23.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954530552/saucisson-sec-de-montagne-pur-porc-label-rouge-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1690', 'Coppa ', 'Echine de porc (UE) , sel , épices (poivre, muscade) , sucre , dextrose , antioxydant : acide ascorbique , conservateurs : nitrate de potassium et nitrite de sodium, ferments.
+Traces éventuelles de lait et de soja.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/573/5839/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/573/5839/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225735839/coppa-u');
+
+INSERT INTO catalogue_product
+VALUES ('1691', 'Pancetta', 'Poitrine de porc (UE) , sel , épices (poivre, muscade) , sucre , dextrose , antioxydant : acide ascorbique , conservateurs : nitrate de potassium et nitrite de sodium, ferments.
+Traces éventuelles de lait et de soja.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/573/5846/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/573/5846/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225735846/pancetta-u');
+
+INSERT INTO catalogue_product
+VALUES ('1692', 'Saucisse de Morteau IGP cuite', 'Viande de porc (France), sel, saccharose, dextrose, épice (poivre), co, nservateur : nitrite de sodium, boyau naturel de porc. 108 g de viande, de porc sont utilisés pour 100g de produit.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/460/0248/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/460/0248/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954600248/saucisse-de-morteau-igp-cuite-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1693', 'Saucisse de Montbéliard IGP cuite', 'Viande de porc (France), sel, saccharose, dextrose, épices (poivre, ca, rvi moulu), conservateur : nitrite de sodium, boyau naturel de porc. 1, 10 g de viande de porc sont utilisés pour 100g de produit.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/460/0255/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/460/0255/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954600255/saucisse-de-montbeliard-igp-cuite-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1694', 'Saucisses cocktail rondes micro-ondables', 'Saucisses fumées [viande de porc 60% (Origine : France), eau, plasma concentré de porc, gras de porc, sel, arôme naturel d,épices, stabilisant : triphosphates, gélifiants : gomme guar -gomme xanthane - carraghénanes, sirop de glucose, antioxydant : acide ascorbique, conservateur : nitrite de sodium], eau. Traces éventuelles de lait et de céréales contenant du gluten.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/025/9545/front_fr.27.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/025/9545/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220259545/saucisses-cocktail-rondes-micro-ondables-u');
+
+INSERT INTO catalogue_product
+VALUES ('1695', 'Râpé de lardons fumés cuits VIANDE DE PORC FRANCAISE', 'Ingrédients : Poitrine de porc (UE), sel et sel fumé, acidifiant, : lactate de sodium, arôme de fumée, dextrose, sirop de glucose, antio, xydant : érythorbate de sodium, fumée liquide, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/406/1380/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/406/1380/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224061380/rape-de-lardons-fumes-cuits-viande-de-porc-francaise-u');
+
+INSERT INTO catalogue_product
+VALUES ('1696', 'Rillettes de poulet rôti', 'Viande de poulet (origine France) 90 %, graisse de canard (origine UE), plantes aromatiques, carottes, vinaigre d,alcool, miel, arôme, colorant : caramel ordinaire, sel, poivre', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/036/8940/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/036/8940/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220368940/rillettes-de-poulet-roti-u');
+
+INSERT INTO catalogue_product
+VALUES ('1697', 'Merguez boeuf/mouton,', 'Viande de boeuf 76% (maigre et gras de boeuf), eau, viande de mouton 6.9%, gras de mouton, eau, dextrose, sel, conservateurs : E326 - E262, épices, arômes, colorants : E120 - E160c, antioxydants : E300 - E316, huile de colza, boyau de mouton.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/017/1533/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/017/1533/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220171533/merguez-boeuf-mouton-u');
+
+INSERT INTO catalogue_product
+VALUES ('1698', 'Jambonneau à l,ancienne', 'Jarret arrière de porc (Union Européenne) 94%, sel, épices, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/336/895/525/1043/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/525/1043/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368955251043/jambonneau-a-l-ancienne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1699', 'Boudin noir à l,ancienne', 'Sang de porc 33,8% (France), oignons, gras de porc (France), morceau de tête de porc (France),persil, sel, ail, épices, plantes aromatiques.Enveloppe : boyau naturel de porc (France).', '4', '8', 'https://static.openfoodfacts.org/images/products/336/895/641/2344/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/641/2344/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368956412344/boudin-noir-a-l-ancienne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1700', 'Véritable andouille de Guéméné à l,ancienne', 'Ingrédients : chaudins de porc (France), enveloppe (boyau de boeuf), sel, poivre.
+Traces éventuelles de céréales contenant du gluten et de soja.', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/524/8241/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/524/8241/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368955248241/veritable-andouille-de-guemene-a-l-ancienne-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1701', 'Jambon cuit supérieur au torchon SC', 'Jambon frais, sel, bouillon (eau, os et viande de porc), dextrose de b, lé ou de maïs, arômes naturels, antioxydant : érythorbate de sodium, c, onservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/463/2719/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/463/2719/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224632719/jambon-cuit-superieur-au-torchon-sc-u');
+
+INSERT INTO catalogue_product
+VALUES ('1702', 'Cervelas qualité supérieure', 'Viande de porc 82% (France), eau, sel, plasma sanguin de porc, sirop de glucose et dextrose, épices et plantes aromatiques (coriandre, ail), stabilisants : E450, E452 , exhausteur de goût : E621, arômes naturels, acidifiant : E575, colorant : E120, antioxydant : E316, conservateur : E250.Traces éventuelles d oeuf, lactose, soja et fruits à coque.Boyau non comestible, retirez avant consommation.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/462/1300/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/462/1300/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224621300/cervelas-qualite-superieure-u');
+
+INSERT INTO catalogue_product
+VALUES ('1703', 'Saucisses de Francfort', 'Ingrédients : viande de porc 71,8% (Origine France), eau, gras de porc (Origine France), sel, plasma de porc déshydraté, arômes naturels, épices et plantes aromatiques, dextrose, antioxydants: ascorbate de sodium et acide ascorbique, sang de porc en poudre, conservateur: nitrite de sodium, boyau naturel de mouton. Traces éventuelles de céréales contenant du gluten, lait, pistache et moutarde.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/9152/front_fr.23.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/9152/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220509152/saucisses-de-francfort-u');
+
+INSERT INTO catalogue_product
+VALUES ('1704', 'Lardons fumés', 'Poitrine de porc (origine : France), sel, dextrose, conservateur : nitrite de sodium, antioxydant : ascorbate de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/167/4583/front_fr.30.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/167/4583/nutrition_fr.34.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221674583/lardons-fumes-u');
+
+INSERT INTO catalogue_product
+VALUES ('1705', 'Jambonneau qualité supérieure', 'Jambonneau de porc (France) 94%, siropde glucose, arômes naturels, conservateur :érythorbate de sodium et nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/196/7197/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/196/7197/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221967197/jambonneau-qualite-superieure-u');
+
+INSERT INTO catalogue_product
+VALUES ('1706', 'Boudins blancs cocktail', 'Viande de porc 68%, eau, blanc d,OEUF, LAIT entier en poudre, sel, gra, s de porc, kirsch, protéines de LAIT, épices et aromates, stabilisants, : di- et polyphosphates, arôme naturel, antioxydant : érythorbate de, sodium, préparation aromatisante naturelle Fabriqué en France à partir, de viandes d,origine Union Européenne. Certains ingrédients de ce pro, duit ne proviennent pas de France.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/036/9527/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/036/9527/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220369527/boudins-blancs-cocktail-u');
+
+INSERT INTO catalogue_product
+VALUES ('1707', 'Saucisses Fumées Supérieures', 'Viande de porc (France) 98%, gras de porc (France), sel,dextrose, poivre, ail, conservateurs : acide ascorbique et nitritede sodium, boyau naturel de porc. Fumage au bois de hêtre', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/027/0106/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/027/0106/nutrition_fr.26.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220270106/saucisses-fumees-superieures-u');
+
+INSERT INTO catalogue_product
+VALUES ('1708', 'Poitrine fumée', 'Ingrédients : Poitrine de porc (France) 87%, eau, sel, dextrose, antioxydant :érythorbate de sodium, conservateur : nitrite de sodium', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/463/2740/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/463/2740/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224632740/poitrine-fumee-u');
+
+INSERT INTO catalogue_product
+VALUES ('1709', 'Aiguillettes de poulet rôti au four', 'Aiguillettes de poulet (France), eau, sel, cassonade, sirop de glucose, protéines de pois, arômes naturels, fibres de carotte, arôme naturel d,ail avec autres arômes naturels, épaississant : carraghénanes.
+134 g d,aiguillettes de poulet mis en oeuvre pour 100 g de produit fini', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2631/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2631/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722631/aiguillettes-de-poulet-roti-au-four-u');
+
+INSERT INTO catalogue_product
+VALUES ('1710', 'Emincés de gésiers de volaille', 'Gésiers de dinde : 83%, sel, arômes naturels, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium. Graisse de canard.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2624/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2624/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722624/eminces-de-gesiers-de-volaille-u');
+
+INSERT INTO catalogue_product
+VALUES ('1711', 'Emincés de filet de poulet rôti au four', 'Filet de poulet sans peau (France), eau, fécule de pomme de terre, huile de tournesol, dextrose de blé, arômes naturels, sel, extraits d,épices, conservateurs : lactate de potassium et lactate de calcium, gélifiant : carraghénanes, acidifiant : acétate de sodium.
+102 g de filet de poulet mis en oeuvre pour 100 g de produit fini.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2617/front_fr.26.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2617/nutrition_fr.30.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722617/eminces-de-filet-de-poulet-roti-au-four-u');
+
+INSERT INTO catalogue_product
+VALUES ('1712', 'Rôti de porc cuit au four Viande de Porc Française', 'Longe de porc traitée en salaison (France), eau, sel, arômes naturels, sirop de glucose, dextrose, ail frais, poivre, conservateur : nitrite de sodium, antioxydant : érythorbate de sodium, colorant : caramel ordinaire.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/223/9941/front_fr.19.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/223/9941/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256222239941/roti-de-porc-cuit-au-four-viande-de-porc-francaise-u');
+
+INSERT INTO catalogue_product
+VALUES ('1713', 'Emincés de filet de poulet au curry', 'Ingrédients: Filet de poulet 78%, eau, maltodextrine , conservateurs : lactate de potassium et acétate de sodium, dextrose, épices et plantes aromatiques (dont curry 1,05%), amidon de pomme de terre, sel, gélifiant : carraghénanes, arômes naturels, amidon modifié, huile de tournesol, ferments. Traces éventuelles de blé, lait et oeuf.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2556/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2556/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722556/eminces-de-filet-de-poulet-au-curry-u');
+
+INSERT INTO catalogue_product
+VALUES ('1714', 'Filet de poulet au curry', 'Filet de poulet 78%, eau, maltodextrine , conservateurs : lactate de potassium et acétate de sodium, dextrose, épices et plantes aromatiques (dont curry 1,05%), amidon de pomme de terre, sel, gélifiant : carraghénanes, arômes naturels, amidon modifié, huile de tournesol. Traces éventuelles de blé, lait, oeuf et orge.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/572/2587/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/572/2587/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256225722587/filet-de-poulet-au-curry-u');
+
+INSERT INTO catalogue_product
+VALUES ('1715', 'Dés d,épaule', 'Epaule de porc (Origine : France) 84%, eau, sel, dextrose de blé, arômes naturels, sirop de glucose de blé, stabilisants : tri et diphosphates de sodium, antioxydant : érythorbate de sodium, conservateur : nitrites de sodium', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/006/3951/front_fr.29.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/006/3951/nutrition_fr.26.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220063951/des-d-epaule-u');
+
+INSERT INTO catalogue_product
+VALUES ('1716', 'Viande séchée de boeuf', 'Noix de boeuf (UE), sel, épices, dextrose, acidifiant :acide citrique, antioxydant : ascorbate de sodium,conservateur : nitrite de sodium.Traces éventuelles de fruits à coque, lait,soja,moutarde,oeuf, céleri.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/406/8273/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/406/8273/nutrition_fr.21.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224068273/viande-sechee-de-boeuf-u');
+
+INSERT INTO catalogue_product
+VALUES ('1717', 'Lardons fumés VPF', 'Poitrine de porc* (Origine : France), sel, dextrose*, antioxydant : ascorbate de sodium, conservateur: nitrite de sodium.*Ingrédient issu de l,agriculture biologique', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6656/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6656/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506656/lardons-fumes-vpf-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1718', 'Jambon supérieur', 'Jambon frais* (France), eau, sel, dextrose*, arômes naturels, antioxyd, ant : ascorbate de sodium, conservateur : nitrite de sodium. * Ingrédi, ent issu de l,agriculture biologique.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6649/front_fr.26.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6649/nutrition_fr.23.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506649/jambon-superieur-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1719', 'Jambon sec', 'Jambon de porc * (origine France), sel, conservateur: nitrate de potassium. *Ingrédient issu de l,agriculture biologique. Traces éventuelles de lactose.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/036/9640/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/036/9640/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220369640/jambon-sec-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1720', 'Gros lardons fumés à l,ancienne Viande de porc Français', 'Ingrédients : Poitrine de porc,(France) sel, dextrose, saccharose, épices et plantes aromatiques, antioxydants : acide érythorbique et érythorbate de sodium , conservateur: nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/476/4526/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/476/4526/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256224764526/gros-lardons-fumes-a-l-ancienne-viande-de-porc-francais-u');
+
+INSERT INTO catalogue_product
+VALUES ('1721', 'Jambon de Paris', 'Jambon de porc (France),sel,bouillons (eau, os et viande de porc, oignon, ail, poivre, muscade, clou de girofle, thym, laurier), sirop de glucose, antioxydant :érythorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/167/4637/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/167/4637/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256221674637/jambon-de-paris-u');
+
+INSERT INTO catalogue_product
+VALUES ('1722', 'Steaks hachés  15%MG', '100 % viande bovine*.Pourcentage dematières grasses inférieur à 15%.Rapport collagène sur protéines de viande inférieur à 15.*Ingrédient issu de l,agriculture biologique.', '2', '8', 'https://static.openfoodfacts.org/images/products/325/622/065/2988/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/065/2988/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220652988/steaks-haches-15-mg-u-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1723', 'Jambon à l,os découenné et dégraissé', 'jambon (France), sel, dextrose, arômes, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6847/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6847/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506847/jambon-a-l-os-decouenne-et-degraisse-u');
+
+INSERT INTO catalogue_product
+VALUES ('1724', 'Jambon cuit au torchon découenné', 'Jambon (France), sel, dextrose, arômes, bouillon (eau, gélatine de porc, légumes, sel, épice), antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6755/front_fr.19.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6755/nutrition_fr.23.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506755/jambon-cuit-au-torchon-decouenne-u');
+
+INSERT INTO catalogue_product
+VALUES ('1725', 'Jambon cuit supérieur sans couenne au torchon', 'Jambon (France), sel, dextrose, arômes, bouillon (eau, gélatine de porc, légumes, sel, épice), antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/050/6793/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/050/6793/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220506793/jambon-cuit-superieur-sans-couenne-au-torchon-u');
+
+INSERT INTO catalogue_product
+VALUES ('1726', 'Jambon cru Italien,', 'Jambon de porc, (origine UE), sel, conservateur: nitrate de potassium. Traces eventuelles de lait, fruits à coque, soja, oeuf et moutarde. Elaboré en Italie et tranché puis conditionné en France.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/065/2698/front_fr.35.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/065/2698/nutrition_fr.39.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220652698/jambon-cru-italien-u');
+
+INSERT INTO catalogue_product
+VALUES ('1727', 'Jambon Cuit à Griller', 'Jambon de porc (origine France), gras et couenne de porc (origine France), sel, dextrose, arômes, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/622/088/1319/front_fr.14.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/088/1319/nutrition_fr.18.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220881319/jambon-cuit-a-griller-u');
+
+INSERT INTO catalogue_product
+VALUES ('1728', 'Blanc de Dinde', 'Viande de filet de dinde 86%, eau, sel, dextrose, arômes, graisse de v, olaille, aromates, gélifiant : carraghénanes, conservateur : nitrite d, e sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/325/622/066/6596/front_fr.28.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/066/6596/nutrition_fr.32.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220666596/blanc-de-dinde-u');
+
+INSERT INTO catalogue_product
+VALUES ('1729', 'Saucisse sèche pur porc droite', 'Viande de porc, sel, lactose, poivre, sucre, dextrose de blé, pulpe d,, ail, conservateurs : nitrate de potassium et nitrite de sodium, fermen, ts, boyau collagénique. Poudre de fleurage : talc, carbonate de calciu, m. 154 g de viande de porc utilisée pour 100 g de produit fini.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/622/076/4445/front_fr.25.full.jpg', 'https://static.openfoodfacts.org/images/products/325/622/076/4445/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3256220764445/saucisse-seche-pur-porc-droite-u');
+
+INSERT INTO catalogue_product
+VALUES ('1730', 'La Knack d,Alsace', 'Ingredients : Viande de porc* 69%, eau, gras de porc, viande de boeuf* 6%, sel, plasma deshydrate, epices et plantes aromatiques, stabilisants : diphosphates et triphosphates, sirop de glucose, dextrose, antioxydants : acide ascorbique et ascorbate de sodium, exhausteur de gout : glutamate monosodique, aromes naturels, conservateur : nitrite de sodium. Boyau naturel de mouton. Fume au bois de hetre. *origine France. Présence éventuelle de gluten, oeuf, lait, fruits a coque et moutarde.', '4', '8', 'https://static.openfoodfacts.org/images/products/318/095/000/7407/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/318/095/000/7407/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3180950007407/la-knack-d-alsace-stoeffler');
+
+INSERT INTO catalogue_product
+VALUES ('1731', 'Escargots de Bourgogne Label Rouge', 'Farce 52% (BEURRE extra-fin 41%, ail, persil, sel, épices). Chair d ESCARGOT (MOLLUSQUES) Helix pomatia cuisinée 48% (sel, épices, plantes aromatiques dont CELERI).', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/460/0569/front_fr.25.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/460/0569/nutrition_fr.21.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954600569/escargots-de-bourgogne-label-rouge-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1732', 'La Strasbourg', 'Ingrédients : Viande de porc* 66%, eau, gras de porc, viande de bœuf* 6%, sel, plasma déshydraté,  épices et plantes aromatiques, stabilisants : diphosphates et triphosphates, sirop de glucose, dextrose, antioxydants : acide ascorbique et ascorbate de sodium, exhausteur de goût : glutamate monosodique, arômes naturels, conservateur : nitrite de sodium. Boyau, coloré ( collagène, eau, cellulose, colorants : carmins, oxyde de fer). Fumé au bois de hêtre. *origine France. Présence éventuelle de gluten, oeuf, lait, fruits à coque et moutarde.', '4', '8', 'https://static.openfoodfacts.org/images/products/323/508/000/8647/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/323/508/000/8647/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3235080008647/la-strasbourg-stoeffler');
+
+INSERT INTO catalogue_product
+VALUES ('1733', 'La Francfort', 'Ingrédients : Viande de porc origine France 68%, eau, gras de porc, sel, fibres de carotte, plasma déshydraté, dextrose, stabilisants: diphosphates et triphosphates, épices et plantes aromatiques, exhausteur de goût: glutamate monosodique, antioxydant: acide ascorbique, extraits d,épices, conservateur : nitrite de sodium, arôme de fumée. Boyau coloré (collagène, eau, cellulose, colorants: rocou, oxydes de fer). Présence éventuelle de gluten, oeuf, lait, fruits à coque et moutarde.', '5', '8', 'https://static.openfoodfacts.org/images/products/323/508/000/8654/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/323/508/000/8654/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3235080008654/la-francfort-stoeffler');
+
+INSERT INTO catalogue_product
+VALUES ('1734', 'Steaks hachés pur boeuf façon bouchère', '100% viande de bœuf issue de l,agriculture biologique (origine France).', '3', '8', 'https://static.openfoodfacts.org/images/products/322/247/320/4588/front_fr.19.full.jpg', 'https://static.openfoodfacts.org/images/products/322/247/320/4588/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3222473204588/steaks-haches-pur-boeuf-facon-bouchere-casino-bio');
+
+INSERT INTO catalogue_product
+VALUES ('1735', 'Merguez', 'Viande de bœuf 55 % (origine France), viande de mouton 12  % (origine : France), gras de bœuf, eau, gras de mouton, sel, sirop de glucose, épices et plantes aromatiques arômes naturels dextrose, sucre, colorant E120. Boyau nature de mouton.', '5', '8', 'https://static.openfoodfacts.org/images/products/366/111/206/0817/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/366/111/206/0817/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3661112060817/merguez-ferial');
+
+INSERT INTO catalogue_product
+VALUES ('1736', 'Jambon de Parme', 'Jambon de porc (Italie), sel', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/787/2857/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/787/2857/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368957872857/jambon-de-parme-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1737', 'Magret de canard IGP du Sud Ouest Fumé au Bois de Hêtre', 'Magret de canard du Sud Ouest 97%, sel nitrité 2,4% (sel, conservateur : nitrite de sodium), poivre 0,1%, épices 0,05%, antioxydant : ascorbate de sodium, ferments', '5', '8', 'https://static.openfoodfacts.org/images/products/336/895/460/0033/front_fr.35.full.jpg', 'https://static.openfoodfacts.org/images/products/336/895/460/0033/nutrition_fr.23.400.jpg', 'https://fr-en.openfoodfacts.org/product/3368954600033/magret-de-canard-igp-du-sud-ouest-fume-au-bois-de-hetre-u-saveurs');
+
+INSERT INTO catalogue_product
+VALUES ('1738', 'Fleuron de Canard', 'Foie maigre de canard, graisse de canard, _oeuf_, _crème_ fraîche, huile de palme, sel, sucre, poivre, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium, colorant : lutéine.
+
+', '5', '8', 'https://static.openfoodfacts.org/images/products/309/575/622/0014/front_fr.37.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/622/0014/nutrition_fr.32.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095756220014/fleuron-de-canard-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1739', 'Lardons de canard', 'Viande de canard : 88 %, eau, dextrose de blé, acidifiant : lactate de potassium, sel, arômes naturels, conservateur : nitrite de sodium, antioxydant : érythorbate de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/326/698/046/6510/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/326/698/046/6510/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3266980466510/lardons-de-canard-le-gaulois');
+
+INSERT INTO catalogue_product
+VALUES ('1740', '2 pavés aux 3 poivres', 'Viande bovine 87%, marinade 3 poivres 7% (eau, dextrose de blé, huile de tournesol, vinaigre, sel, épices [dont poivres noirs / verts et blancs 4,6%], concentré de tomate, arômes, amidon transformé de pomme de terre), eau, acidifiant : citrate de sodium, conservateur : acétate de sodium, sel, antioxydant : acide ascorbique, ascorbate de sodium, bicarbonate de soude, arômes.', '2', '8', 'https://static.openfoodfacts.org/images/products/318/123/218/0801/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/318/123/218/0801/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3181232180801/2-paves-aux-3-poivres-charal');
+
+INSERT INTO catalogue_product
+VALUES ('1741', 'Rôti de porc aux herbes', '90% filet de porc, eau, sel, arômes naturels, dextrose, bouillon de porc deshydraté (eau, os et viande de porc, extrait de carotte et extrait de poireau), épices, 0,1% herbes de Provence, sirop de glucose, chlorure de potassium, antioxydant : ascorbate de sodium , conservateur : nitrite de sodium , colorant : cararamel ordinaire.', '3', '8', 'https://static.openfoodfacts.org/images/products/20680732/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/20680732/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/20680732/roti-de-porc-aux-herbes-saint-alby');
+
+INSERT INTO catalogue_product
+VALUES ('1742', 'Andouillettes Grill aux Herbes', 'Estomacs et fuseaux de porc, oignons, sel, plasma de porc, herbes (persil, cerfeuil, thym, échalote, estragon), poivre, acidifiant : E330, E331, conservateur : E250. Boyau naturel de bœuf ou de porc.', '4', '8', 'https://static.openfoodfacts.org/images/products/327/891/070/7693/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/327/891/070/7693/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3278910707693/andouillettes-grill-aux-herbes-popy');
+
+INSERT INTO catalogue_product
+VALUES ('1743', 'Andouillettes Grill Moutarde à l,Ancienne', 'Estomacs et fuseaux de porc, fraise de veau, oignons, _moutarde_ à l,ancienne (2,4 %) (eau, graines de moutarde, vinaigre, sel), sel, plasma de porc, poivre, acidifiant : E330, E331, conservateur : E250. Boyau naturel de bœuf ou de porc.', '4', '8', 'https://static.openfoodfacts.org/images/products/327/891/020/0460/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/327/891/020/0460/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3278910200460/andouillettes-grill-moutarde-a-l-ancienne-popy');
+
+INSERT INTO catalogue_product
+VALUES ('1744', 'Andouillettes Grill Recette Andalouse', 'Estomacs et fuseaux de porc, fraise de veau, oignons, épices andalouses (sel, épices, dextrose, aromates, antioxygène E316, conservateur E252), sel, plasma de porc, poivre, acidifiant : E330, E331, conservateur : E250. Boyau naturel de bœuf.', '4', '8', 'https://static.openfoodfacts.org/images/products/327/891/020/0224/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/327/891/020/0224/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3278910200224/andouillettes-grill-recette-andalouse-popy');
+
+INSERT INTO catalogue_product
+VALUES ('1745', '2 Escalopes Extrafine de Dinde', 'Dinde née, élevée et abattue en France. Produit frais, classe A.', '1', '8', 'https://static.openfoodfacts.org/images/products/220/127/303/2141/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/220/127/303/2141/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/2201273032141/2-escalopes-extrafine-de-dinde-monoprix');
+
+INSERT INTO catalogue_product
+VALUES ('1746', 'Saucisse Sèche Qualité Supérieure', 'Viande de porc (origine : UE), sel, _lactose_, poivres, sucre, dextrose, pulpe d,ail réhydratée, conservateurs : nitrate de potassium, nitrite de sodium, ferments.', '5', '8', 'https://static.openfoodfacts.org/images/products/335/003/015/9184/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/335/003/015/9184/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3350030159184/saucisse-seche-qualite-superieure-monoprix');
+
+INSERT INTO catalogue_product
+VALUES ('1747', 'Jambon Cru', 'Jambon de porc, sel, ail en poudre, dextrose, acidifiant : acide citrique, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/335/003/328/8799/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/335/003/328/8799/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3350033288799/jambon-cru-monoprix');
+
+INSERT INTO catalogue_product
+VALUES ('1748', 'FILET TRANCHE DE POULET BARBECUE - 4 tranches', 'Filet de poulet 85%, sauce barbecue 8% (sucre, sauce _soja_ (eau, _soja_, _farine de _blé_, sel), concentré de tomate 2%, vinaigre de vin blanc, huile de colza, mélasse, paprika 0.1%, épices, sel, oignon, ail, arôme naturel, curry (épices, sel, fenouil), fécule de manioc, sel, sucre, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/811/0016/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/811/0016/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095758110016/filet-tranche-de-poulet-barbecue-4-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1749', 'FILET TRANCHE DE POULET ROTI - 4 Tr.', 'Filet de poulet 87%, bouillons (eau, os de poulet, sel, ail, plantes aromatiques, épices), fécule de manioc, huile de tournesol, sel, sucre, caramel (sucre, sirop de glucose-fructose, eau), épices (dont poivre 0.04%), antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/810/9010/front_fr.21.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/810/9010/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095758109010/chicken-fillet-sliced-and-roasted-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1750', 'Rôti de dinde cuit 100% filet* - 4 tranches', 'Filet de dinde 88%, bouillons 2% (eau, os de poulet, sel, épices, carotte, _céleri_, oignon, poireau, plantes aromatiques), sel 1.6%, dextrose de maïs, jus concentrés de _céleri_ et betterave jaune, plantes aromatiques 0.2%, épices, ferments, colorant : caramel ordinaire..', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/413/5013/front_fr.28.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/413/5013/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095754135013/roti-de-dinde-cuit-100-filet-4-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1751', 'Aiguillettes de poulet rôti - 25% de Sel* - *par rapport à la moyenne de la catégorie - 150 g', 'Aiguillette de poulet 84%, bouillons (eau, os de poulet, sel, épices, plantes aromatiques), acidifiant : lactate de potassium, fécule de manioc, dextrose de maïs, sel.', '2', '8', 'https://static.openfoodfacts.org/images/products/309/575/662/2016/front_fr.27.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/662/2016/nutrition_fr.24.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095756622016/aiguillettes-de-poulet-roti-25-de-sel-par-rapport-a-la-moyenne-de-la-categorie-150-g-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1752', 'Le haché jambon emmental fondu - 2 pièces', '
+	Jambon de porc (70%), Emmental fondu (15%) (_Emmental_, _fromage_, eau, amidon modifié de pomme de terre, sels de fonte (polyphosphates et orthophosphates de sodium), _beurre_, poudre de _lactosérum_, arômes), eau, fécule de manioc, sel, arômes naturels, plantes aromatiques, épices, dextrose de maïs, _céleri_, extrait de levure, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.
+
+', '4', '8', 'https://static.openfoodfacts.org/images/products/309/575/895/4108/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/895/4108/nutrition_fr.20.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095758954108/le-hache-jambon-emmental-fondu-2-pieces-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1753', 'Le Paris fumé - 4 tranches', '
+	Jambon de porc, sel, dextrose de maïs, extrait de levure, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.
+
+', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/804/1013/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/804/1013/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095758041013/le-paris-fume-4-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1754', 'Filet de poulet braisé - 4 tranches épaisses', '
+	Filet de poulet, bouillons (eau, os de poulet, sel, épices, carotte, _céleri_, oignon, poireau, plantes aromatiques, huile de colza), sel, dextrose de maïs, condiment, extrait de levure, _céleri_, jus concentré d,oignons, oignon frit (oignon, sel, huile de tournesol), conservateur : nitrite de sodium, colorant : caramel ordinaire.
+
+', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/300/5010/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/300/5010/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095753005010/filet-de-poulet-braise-4-tranches-epaisses-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1755', 'Le Tranché Fin de Boeuf Doré au four - 6 tranches fines', 'Viande de boeuf 87%, bouillons (eau, os de veau, carotte, oignon, _céleri_, vin blanc, concentré de tomate, sel, huile de colza, plantes aromatiques, épices), sel, dextrose de maïs, épices, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/694/7010/front_fr.16.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/694/7010/nutrition_fr.6.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095756947010/le-tranche-fin-de-boeuf-dore-au-four-6-tranches-fines-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1756', 'Bacon porc fumé - 12 tranches environ', 'Noix de jambon de porc, sel, dextrose de maïs, antioxydant : ascorbate de sodium, sirop de glucose, conservateurs : nitrite de sodium - nitrate de potassium, arômes naturels, épice.', '4', '8', 'https://static.openfoodfacts.org/images/products/309/575/515/8011/front_fr.22.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/515/8011/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095755158011/bacon-porc-fume-12-tranches-environ-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1757', 'Roulade de volaille olives Halal - 10 tranches', 'Viande de dinde et de poulet (64%), graisse de poulet, eau, olives (4%), sel, huile d,olive vierge, dextrose de maïs, jus de citron concentré, épices, _céleri_, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/309/575/212/3012/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/212/3012/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095752123012/roulade-de-volaille-olives-halal-10-tranches-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1758', 'Blanc de poulet aux fines herbes - 4 tranches fines', 'Filet de poulet, sel, dextrose de maïs, fines herbes (0.5%) (herbes de Provence, cerfeuil, estragon), jus concentré de _céleri_, conservateur : nitrite de sodium, colorant : caramel ordinaire.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/839/1101/front_fr.23.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/839/1101/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095758391101/blanc-de-poulet-aux-fines-herbes-4-tranches-fines-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1759', 'Effilochés de porc à l,étouffée', 'Epaule de porc, bouillons (eau, os de veau, carotte, oignon, _céleri_, vin blanc, concentré de tomate, sel, huile de colza, plantes aromatiques, épices, ail), sel, concentré de tomate, sucre, épices.', '3', '8', 'https://static.openfoodfacts.org/images/products/309/575/923/0010/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/309/575/923/0010/nutrition_fr.7.400.jpg', 'https://fr-en.openfoodfacts.org/product/3095759230010/effiloches-de-porc-a-l-etouffee-fleury-michon');
+
+INSERT INTO catalogue_product
+VALUES ('1760', 'Jambon Noir du Périgord', 'Jambon de porc, sel, dextrose, baies de genièvre partiellement séchées et broyées, conservateur : nitrate de potassium.', '4', '8', 'https://static.openfoodfacts.org/images/products/344/935/000/2192/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/344/935/000/2192/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3449350002192/jambon-noir-du-perigord-le-saloir-du-perigord');
+
+INSERT INTO catalogue_product
+VALUES ('1761', 'Paese di L,Isula', 'Échine de porc, sel, poivre, épices et aromates, dextrose, saccharose, antioxydant: ascorbate de sodium, conservateur: nitrate de potassium.', '5', '8', 'https://static.openfoodfacts.org/images/products/342/829/421/0009/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/342/829/421/0009/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3428294210009/paese-di-l-isula-charcuterie-costa');
+
+INSERT INTO catalogue_product
+VALUES ('1762', 'Bacon de Dinde à poêler', 'Cuisse de dinde halal 93,8%, sel, eau, acidifiants (E325, E262), sirop de glucose, arômes, fumée liquide, antioxydant (E316), arôme de fumée, conservateur (E250).', '4', '8', 'https://static.openfoodfacts.org/images/products/351/269/000/3478/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/351/269/000/3478/nutrition_fr.5.400.jpg', 'https://fr-en.openfoodfacts.org/product/3512690003478/bacon-de-dinde-a-poeler-isla-delice');
+
+INSERT INTO catalogue_product
+VALUES ('1763', 'Jambon de Paris 2 tranches ', 'Jambon de porc bio, eau, sel, sucre bio, arômes naturels, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/356/007/072/0019/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/072/0019/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070720019/jambon-de-paris-2-tranches-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1764', 'Dés d,Épaule', 'Épaule de porc 65 %, eau, couenne, plasma de porc, dextrose, sel, stabilisants : polyphosphates, acidifiant : acétate de sodium, conservateurs : érythorbate de sodium, nitrite de sodium, arôme naturel.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/039/116/0846/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/116/0846/nutrition_fr.16.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250391160846/des-d-epaule-netto');
+
+INSERT INTO catalogue_product
+VALUES ('1765', 'Boudin noir aux oignons', 'Oignons frais 32 %, sang de porc, gras de porc, couennes de porc, sel, aromates, épices, sucre, arômes naturels. Enveloppe : boyau naturel de porc.', '4', '8', 'https://static.openfoodfacts.org/images/products/325/039/120/0146/front_fr.24.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/120/0146/nutrition_fr.17.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250391200146/boudin-noir-aux-oignons-monique-ranou');
+
+INSERT INTO catalogue_product
+VALUES ('1766', 'Jambon', 'Jambon de porc (origine : France), sel, dextrose, bouillon (arômes naturels, oignon, carotte, poireau).', '3', '8', 'https://static.openfoodfacts.org/images/products/325/039/260/2253/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/260/2253/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250392602253/jambon-monique-ranou');
+
+INSERT INTO catalogue_product
+VALUES ('1767', 'Cervelas de Volaille', 'Viande de poulet origine France 74 %, eau, sel, conservateur : nitrite de sodium, protéines de pois, dextrose, fibre végétale, épices et plantes aromatiques 0,5 %, arômes naturels, antioxydant : érythorbate de sodium. Boyau naturel de boeuf.', '4', '8', 'https://static.openfoodfacts.org/images/products/323/755/001/3878/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/323/755/001/3878/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3237550013878/cervelas-de-volaille-pierre-schmidt');
+
+INSERT INTO catalogue_product
+VALUES ('1768', 'Mini Tartinette', 'Viande de porc* 62,5%, gras de porc* 29,5%, acidifiant, lactate de potassium, acétate de sodium, acide lactique, acide citrique, acide tartrique, acide acétique, sel, épices et plantes aromatiques, dextrose, rhum, exhausteur de goût : glutamate monosodique, arômes de fumée, conservateurs : nitrate de potassium, nitrite de sodium, disulfite de sodium, arômes, colorants : carmins, caramel, antioxydants : ascorbate de sodium. *Origine UE', '5', '8', 'https://static.openfoodfacts.org/images/products/323/755/002/3143/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/323/755/002/3143/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/3237550023143/mini-tartinette-pierre-schmidt');
+
+INSERT INTO catalogue_product
+VALUES ('1769', 'Knacks d,Alsace', 'Viande de porc* 63,4%, eau, gras de porc*, viande de bœuf* 6%, sel, plasma de porc, dextrose, stabilisants : diphosphates, triphosphates, épices et plantes aromatiques, arômes, exhausteur de goût, glutamate monosodique, antioxydants, acide ascorbique, ascorbate de sodium, conservateur : nitrite de sodium, colorants d,enveloppe : roucou, carmins, vinaigre. Boyau naturel de mouton. Présence éventuelle de gluten, lait, fruits à coque, moutarde. *Origine UE.', '5', '8', 'https://static.openfoodfacts.org/images/products/323/755/002/1880/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/323/755/002/1880/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3237550021880/knacks-d-alsace-pierre-schmidt');
+
+INSERT INTO catalogue_product
+VALUES ('1770', 'Filet Mignon fumé au bois de Hêtre - Nature OU au poivre', 'Filet mignon de porc, eau, sel, stabilisant : E331, dextrose, acidifiant : E262, épices, plante aromatique, conservateur : E250. Fumage au bois de hêtre.', '4', '8', 'https://static.openfoodfacts.org/images/products/26078502/front_fr.6.full.jpg', 'https://static.openfoodfacts.org/images/products/26078502/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/26078502/filet-mignon-fume-au-bois-de-hetre-nature-ou-au-poivre-epicurillades');
+
+INSERT INTO catalogue_product
+VALUES ('1771', 'Rillettes de Poulet Rôti en cocotte', 'Viande de poulet (90 %), graisse de canard, aromates, carottes, vinaigre d,alcool, miel, arôme, colorant : caramel ordinaire, sel, poivre.', '4', '8', 'https://static.openfoodfacts.org/images/products/26017334/front_fr.18.full.jpg', 'https://static.openfoodfacts.org/images/products/26017334/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/26017334/rillettes-de-poulet-roti-en-cocotte-corril');
+
+INSERT INTO catalogue_product
+VALUES ('1772', 'Le Rôti de Porc aux Fines Herbes', 'Longe et filet de porc traité en salaison, eau, sel, sirop de glucose, stabilisants : E450, E451, dextrose, arômes, herbes de Provence 0,1%, conservateur : sel nitrité, antioxydant : E316, exhausteur de goût : E621, épices et plantes aromatiques.', '4', '8', 'https://static.openfoodfacts.org/images/products/327/546/100/4165/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/327/546/100/4165/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3275461004165/le-roti-de-porc-aux-fines-herbes-petitgas');
+
+INSERT INTO catalogue_product
+VALUES ('1773', '4 Tranches de Palette Rôtie à la Diable', 'Épaule de porc, _moutarde_ (eau, graine de _moutarde_, vinaigre, sel, fibre de carotte, conservateur: _bisulfite_ de sodium), crépine de porc, sel, sirop de glucose, dextrose, conservateur : E250, antioxydant : E316, arômes, colorant : E150a.', '4', '8', 'https://static.openfoodfacts.org/images/products/327/362/587/0601/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/327/362/587/0601/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3273625870601/4-tranches-de-palette-rotie-a-la-diable-cooperl');
+
+INSERT INTO catalogue_product
+VALUES ('1774', 'Soubressade à cuire', '', '5', '8', 'https://static.openfoodfacts.org/images/products/247/691/402/9587/front_fr.3.full.jpg', 'https://static.openfoodfacts.org/images/products/247/691/402/9587/nutrition_fr.5.400.jpg', 'https://fr-en.openfoodfacts.org/product/2476914029587/soubressade-a-cuire-salfadis');
+
+INSERT INTO catalogue_product
+VALUES ('1775', 'Bacon fumé', 'Filet de porc, CONSERVATEURS : Lactate de potassium, acétate de sodium, nitrite de sodium, sel, dextrose de maïs, ANTIOXYDANT : Isoascorbate de sodium, fumée. *Sel réduit de 25% par rapport à la moyenne de la catégorie', '3', '8', 'https://static.openfoodfacts.org/images/products/761/303/456/9769/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/761/303/456/9769/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/7613034569769/bacon-fume-herta');
+
+INSERT INTO catalogue_product
+VALUES ('1776', 'Nuggets extra croustillants', 'Préparation de viande de poulet 41,7%, chapelure (farine de _blé_, levure, sel), eau, huile de tournesol, huile de colza, peau de volaille, gluten de _blé_, fibres de _blé_, farine de _blé_, acidifiants : lactate de potassium et acétate de sodium, arômes naturels, sel.', '3', '8', 'https://static.openfoodfacts.org/images/products/356/007/081/2950/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/356/007/081/2950/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3560070812950/nuggets-extra-croustillants-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1777', 'Jambon Sec Italien', 'Viande de porc, sel.', '4', '8', 'https://static.openfoodfacts.org/images/products/343/949/630/2119/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/343/949/630/2119/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3439496302119/jambon-sec-italien-chef');
+
+INSERT INTO catalogue_product
+VALUES ('1778', 'Jambon cru allégé en mg', 'viande de porc, sel, dextrose, épices, antioxydant : ascorbate de sodium, acidifiant : acide citrique, conservateurs : nitrite de sodium, nitrate de potassium, extrait d,épices.', '4', '8', 'https://static.openfoodfacts.org/images/products/848/001/708/9229/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/848/001/708/9229/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/8480017089229/jambon-cru-allege-en-mg-dia');
+
+INSERT INTO catalogue_product
+VALUES ('1779', 'Lardons Fumés (2 x 100 g)', 'Poitrine de porc, sel, acidifiants : lactate de potassium, acétate de sodium , dextrose, chlorure de potassium , conservateurs : ascorbate de sodium, nitrite de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/325/039/031/4271/front_fr.20.full.jpg', 'https://static.openfoodfacts.org/images/products/325/039/031/4271/nutrition_fr.22.400.jpg', 'https://fr-en.openfoodfacts.org/product/3250390314271/lardons-fumes-2-x-100-g-monique-ranou');
+
+INSERT INTO catalogue_product
+VALUES ('1780', 'Poulet au curry', 'Viande de poulet traitée en salaison et précuite 30 % (viande de poulet, eau, sel, dextrose, stabilisant : E451), riz basmati cuisiné 30 % (riz basmati précuit, sel), sauce cuisinée : eau, carottes, _crème_, courgettes, amidon transformé de maïs, curry 0,5 %, huile de tournesol, émulsifiant : E 472e, épaississants : gomme xanthane et gomme guar, arômes (dont _œuf)_, sel, ail en poudre, colorant : E100.', '1', '8', 'https://static.openfoodfacts.org/images/products/377/000/500/7096/front_fr.15.full.jpg', 'https://static.openfoodfacts.org/images/products/377/000/500/7096/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3770005007096/poulet-au-curry-easymeal');
+
+INSERT INTO catalogue_product
+VALUES ('1781', 'Jambon de Bayonne (Saveurs de Nos Régions)', 'jambon de porc, sel, conservateur : nitrate de potassium.  ', '5', '8', 'https://static.openfoodfacts.org/images/products/20681081/front_fr.13.full.jpg', 'https://static.openfoodfacts.org/images/products/20681081/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/20681081/jambon-de-bayonne-saveurs-de-nos-regions');
+
+INSERT INTO catalogue_product
+VALUES ('1782', 'Blanc de Dinde (6 Fines Tranches)', 'Filet et filet interne de dinde 84 %, eau, sel, arômes, dextrose, gélifiant : E407, antioxyadant : E316, conservateur : E250, colorant : caramel ordinaire.  ', '3', '8', 'https://static.openfoodfacts.org/images/products/366/111/205/9798/front_fr.25.full.jpg', 'https://static.openfoodfacts.org/images/products/366/111/205/9798/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3661112059798/blanc-de-dinde-6-fines-tranches-tradilege');
+
+INSERT INTO catalogue_product
+VALUES ('1783', 'Poulet Curry Coco et riz basmati', 'Riz basmati cuit 41% (eau, riz), émincé de filet de poulet rôti traité en salaison 23% (filet de poulet 22%, maltodextrine, sel, dextrose, arôme naturel), eau, _crème_ fraîche, huile de tournesol, lait de noix de coco en poudre 1,6% (contient _lait_), épices curry 1,3%(gingembre, coriandre, curcuma, ail, _céleri_, piment fort), yaourt maigre en poudre (contient _lait_), arôme naturel (contient _lactose_), sel, sucre, épaississant : gomme xanthane, colorant : bêta-carotène.', '2', '8', 'https://static.openfoodfacts.org/images/products/336/676/003/4042/front_fr.7.full.jpg', 'https://static.openfoodfacts.org/images/products/336/676/003/4042/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/3366760034042/poulet-curry-coco-et-riz-basmati-sans-marque');
+
+INSERT INTO catalogue_product
+VALUES ('1784', 'Jambon de Savoie', 'Jambon de porc, sel, conservateur : nitrate de potassium.', '4', '8', 'https://static.openfoodfacts.org/images/products/326/385/944/8318/front_fr.9.full.jpg', 'https://static.openfoodfacts.org/images/products/326/385/944/8318/nutrition_fr.11.400.jpg', 'https://fr-en.openfoodfacts.org/product/3263859448318/jambon-de-savoie-marche-franprix');
+
+INSERT INTO catalogue_product
+VALUES ('1785', 'Blanc de Poulet, Recette Aux Fines Herbes (4 Tranches)', 'Filets de poulet 91 %, eau, sel, dextrose, gélifiant : carraghénanes, fines herbes 0,2 % (persil, ciboulette, estragon), échalote, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/326/385/958/8212/front_fr.17.full.jpg', 'https://static.openfoodfacts.org/images/products/326/385/958/8212/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3263859588212/blanc-de-poulet-recette-aux-fines-herbes-4-tranches-leader-price');
+
+INSERT INTO catalogue_product
+VALUES ('1786', 'Jambon de Bayonne Grandes Tranches', 'Jambon frais de porc, sel, sucre, conservateur : nitrate de potassium', '5', '8', 'https://static.openfoodfacts.org/images/products/306/716/221/2013/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/306/716/221/2013/nutrition_fr.13.400.jpg', 'https://fr-en.openfoodfacts.org/product/3067162212013/jambon-de-bayonne-grandes-tranches-delpeyrat');
+
+INSERT INTO catalogue_product
+VALUES ('1787', 'Fouet Extra &quot,Le Catalan&quot,', 'Maigre et gras de porc, sel, lactose, dextrine de maïs, dextrose, poivre, antioxydant (E-316), conservateurs (E-252, E-250), colorant (E-120), vin 1%', '5', '8', 'https://static.openfoodfacts.org/images/products/843/700/099/9119/front_fr.5.full.jpg', 'https://static.openfoodfacts.org/images/products/843/700/099/9119/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/8437000999119/fouet-extra-le-catalan-le-batistou');
+
+INSERT INTO catalogue_product
+VALUES ('1788', 'Jambon Seranno', 'Jambon de porc, sel, sucre, conservateur : nitrate de potassium, nitrite de sodium et ascorbate de sodium', '4', '8', 'https://static.openfoodfacts.org/images/products/344/986/523/0806/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/344/986/523/0806/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/3449865230806/jambon-seranno-aoste');
+
+INSERT INTO catalogue_product
+VALUES ('1789', 'Tendre Noix Broche -25% de Sel', 'Jambon frais de porc, bouillon (eau, couennes de porc, oignons, os de porc, carottes, sel, persil, ail, clou de girofle, poivre, laurier), sel, chlorure de potassium, dextrose de maïs, arômes naturels, antioxydant : isoascorbate de sodium, conservateur : nitrite de sodium.', '3', '8', 'https://static.openfoodfacts.org/images/products/761/303/424/9425/front_fr.8.full.jpg', 'https://static.openfoodfacts.org/images/products/761/303/424/9425/nutrition_fr.10.400.jpg', 'https://fr-en.openfoodfacts.org/product/7613034249425/tendre-noix-broche-25-de-sel-herta');
+
+INSERT INTO catalogue_product
+VALUES ('1790', 'Araignée à la Méditerranéenne', 'Araignée de porc (88 %), marinade (12 %) (huile de tournesol et matière grasse totalement hydrogénée de colza, sel, vinaigre d,alcool, arômes naturels et extrait d,épices, épices et plantes aromatiques, épinards, poivrons (0,03 %), antioxydants : E300-E301, acidifiant: E262i).', '3', '8', 'https://static.openfoodfacts.org/images/products/326/611/070/0361/front_fr.11.full.jpg', 'https://static.openfoodfacts.org/images/products/326/611/070/0361/nutrition_fr.15.400.jpg', 'https://fr-en.openfoodfacts.org/product/3266110700361/araignee-a-la-mediterraneenne-kermene');
+
+INSERT INTO catalogue_product
+VALUES ('1791', 'Fines rillettes Canard', 'Viande et graisse de canard (80 %), viande de porc, ail, fleur de sel, arôme naturel, poivre, sel, conservateurs : nitrite de sodium, ascorbate de sodium.', '5', '8', 'https://static.openfoodfacts.org/images/products/302/472/002/6307/front_fr.35.full.jpg', 'https://static.openfoodfacts.org/images/products/302/472/002/6307/nutrition_fr.19.400.jpg', 'https://fr-en.openfoodfacts.org/product/3024720026307/fines-rillettes-canard-bordeau-chesnel');
+
+INSERT INTO catalogue_product
+VALUES ('1792', 'Blanc de poulet fumé', 'Filet de poulet 88 %, eau, sel, dextrose, arôme naturel, gélifiant : carraghénanes, conservateur : nitrite de sodium. Fumée naturelle. ', '3', '8', 'https://static.openfoodfacts.org/images/products/324/541/388/1458/front_fr.10.full.jpg', 'https://static.openfoodfacts.org/images/products/324/541/388/1458/nutrition_fr.8.400.jpg', 'https://fr-en.openfoodfacts.org/product/3245413881458/blanc-de-poulet-fume-carrefour');
+
+INSERT INTO catalogue_product
+VALUES ('1793', 'Mousse de canard au porto', 'Canard 35% (foie maigre, graisse de canard), gras de porc, foie de poulet, _lait_, couenne de porc, Porto 2%, _crème_, sel, sucre, farine de _blé_, amidon de maïs, arômes naturels, épices, protéines de lait, Armagnac, _œufs_, eau, antioxydant : érythorbate de sodium, conservateur : nitrite de sodium, graisse de décoration (graisse de canard, saindoux, colorants : lutéine, extrait de paprika', '5', '8', 'https://static.openfoodfacts.org/images/products/20111298/front_fr.34.full.jpg', 'https://static.openfoodfacts.org/images/products/20111298/nutrition_fr.12.400.jpg', 'https://fr-en.openfoodfacts.org/product/20111298/mousse-de-canard-au-porto-saint-alby');
+
+INSERT INTO catalogue_product
+VALUES ('1794', 'Délice de dinde', '', '4', '8', 'https://static.openfoodfacts.org/images/products/370/014/140/2622/front_fr.12.full.jpg', 'https://static.openfoodfacts.org/images/products/370/014/140/2622/nutrition_fr.14.400.jpg', 'https://fr-en.openfoodfacts.org/product/3700141402622/delice-de-dinde-sans-marque');
+
+INSERT INTO catalogue_product
+VALUES ('1795', 'L,Original Jambon Sans Sel Nitrité', 'Jambon de porc , eau, sel de Guérande 1.35 %, dextrose, sirop de glucose, arômes naturels, antioxydant : ascorbate de sodium.', '4', '8', 'https://static.openfoodfacts.org/images/products/023/935/202/8046/front_fr.4.full.jpg', 'https://static.openfoodfacts.org/images/products/023/935/202/8046/nutrition_fr.9.400.jpg', 'https://fr-en.openfoodfacts.org/product/0239352028046/l-original-jambon-sans-sel-nitrite-bi1');
+
