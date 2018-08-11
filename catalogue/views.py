@@ -16,7 +16,7 @@ from django.contrib.auth import authenticate, login, logout
 
 
 # Main page
-def index(request):
+def acceuil(request):
     return render(request, 'catalogue/index.html')
 
 
