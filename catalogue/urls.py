@@ -7,8 +7,8 @@ from . import views
 app_name = 'catalogue'
 
 urlpatterns = [
-    path('catalogue/', views.listing, name='listing'),
-    path('acceuil/', views.acceuil, name='acceuil'),
+    path('listing/', views.listing, name='listing'),
+    path('index/', views.acceuil, name='acceuil'),
     path('join/', views.join, name='join'),
     path('connexion/', views.connexion, name='connexion'),
     path('user/', views.user, name='user'),
