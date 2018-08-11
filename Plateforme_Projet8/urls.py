@@ -24,7 +24,6 @@ from catalogue import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('catalogue/', include('catalogue.urls', namespace='catalogue')),
-    path('', views.index, name='acceuil')
 ]
 
 # using for the dev's environement
