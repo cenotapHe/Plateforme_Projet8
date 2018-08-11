@@ -32,7 +32,113 @@
 
 {% block content %}
 
+  <!-- Presentation of the people of the company -->
+  <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <hr class="my-4">
+            <h2 class="section-heading">Colette et Remy</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <h3 class="section-heading">De la ratatouille aux croissants</h3>
+            <p>Pur Beurre est l'initiative de deux amoureux de la gastronomie française, Colette Tatou et Rémy, que vous avez déjà certainement rencontrés dans notre excellent restaurant Ratatouille.</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <!-- Portfolio with three pictures -->
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="{% static 'catalogue/img/portfolio/fullsize/1.jpg' %}">
+              <img class="img-fluid" src="{% static 'catalogue/img/portfolio/thumbnails/1.jpg' %}" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    100% Bio
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="{% static 'catalogue/img/portfolio/fullsize/2.jpg' %}">
+              <img class="img-fluid" src="{% static 'catalogue/img/portfolio/thumbnails/2.jpg' %}" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Cadre Magnifique
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="{% static 'catalogue/img/portfolio/fullsize/3.jpg' %}">
+              <img class="img-fluid" src="{% static 'catalogue/img/portfolio/thumbnails/3.jpg' %}" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Recette d'excellence
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- The contact section -->
+    <section id="contact">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <hr class="my-4">
+            <h2 class="section-heading">Contactez-nous !</h2>
+            <hr class="my-4">
+            <p class="mb-5">Que ce soit pour de la ratatouille, des croissants, ou tout autre, surtout n'hésitez pas !</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>+33 1337 13 10</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">ratatouille@maispasque.com</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+</section>
 
     <!-- Portfolio with three pictures -->
     <section class="p-0" id="portfolio">
