@@ -16,6 +16,10 @@ from django.contrib.auth import authenticate, login, logout
 
 
 
+# Main page
+def acceuil(request):
+    return render(request, 'catalogue/index.html')
+
 # Page for create a new user
 def join(request):
     return render(request, 'catalogue/create_user.html')
@@ -272,7 +276,3 @@ def search(request):
 # Legal Mention
 def legal_mention(request):
     return render(request, 'catalogue/legal_mention.html')
-
-# Main page
-def acceuil(request):
-    return render(request, 'catalogue/index.html')
