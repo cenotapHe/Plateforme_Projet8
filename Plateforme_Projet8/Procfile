@@ -1,0 +1,1 @@
+web: gunicorn Plateforme_Projet8.wsgi
