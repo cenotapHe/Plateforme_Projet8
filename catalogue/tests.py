@@ -11,7 +11,7 @@ from django.contrib.auth.models import User
 class IndexPageTestCase(TestCase):
         # Test of return HTTP 200
     def test_index_page_returns_200(self):
-        response = self.client.get(reverse('catalogue:acceuil'))
+        response = self.client.get(reverse('acceuil'))
         self.assertEqual(response.status_code, 200)
 
 
