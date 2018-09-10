@@ -24,6 +24,6 @@ class Product(models.Model):
 
 # Association permite subsitute for a product by each user for a new product
 class Association(models.Model):
-    asso_user = models.IntegerField(null=False)
-    asso_product = models.IntegerField(null=False)
+    asso_user = models.ForeignKey(User, on_delete=models.CASCADE)
+    asso_product = models.ForeignKey(Product, on_delete=models.CASCADE)
     asso_product_sub = models.IntegerField(null=False)

@@ -262,12 +262,14 @@ def search(request):
         products = Product.objects.filter(category__name__icontains=query)
 
     message = "Malheureusement nous n'avons trouvé aucun article correspondant à votre requête."
+    link = "https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}&search_simple=1&action=process".format(query)
     name = "Résultats pour la requête %s" % query
     context = {
         'message': message,
         'products': products,
         'categorys': categorys,
-        'name': name
+        'name': name,
+        'link': link
     }
 
     return render(request, 'catalogue/search.html', context)
