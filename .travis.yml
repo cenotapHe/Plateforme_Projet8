@@ -2,14 +2,13 @@ language: python
 python:
   - "3.7-dev"
 
-env:
-  - DJANGO=2.0.7 DB=postgre
+before_script:
+  - pip install -r requirements.txt
 
-install:
-  - pip install -q Django==$DJANGO
-  - pip install -q -r requirements.txt
+env: DJANGO_SETTINGS_MODULE="Plateforme_Projet8.settings.travis"
+
+services:
+  - postgresql
 
 script:
-  - python manage.py makemigrations
-  - python manage.py migrate
-  - python manage.py test
+  - ./manage.py test
