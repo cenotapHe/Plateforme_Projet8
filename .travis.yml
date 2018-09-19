@@ -2,8 +2,12 @@ language: python
 python:
   - "3.7-dev"
 
-install:
-  - pip install -r requirements.txt
+env:
+  - DJANGO=2.0.7 DB=postgre
 
-script:
-  - python manage.py test
+install:
+  - pip install -q Django==$DJANGO --use-mirrors
+  - pip install -q . --use-mirrors
+  - pip install -q -r requirements.txt --use-mirrors
+
+script: python manage.py test
