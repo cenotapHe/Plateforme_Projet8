@@ -6,8 +6,8 @@ env:
   - DJANGO=2.0.7 DB=postgre
 
 install:
-  - pip install -q Django==$DJANGO --use-mirrors
-  - pip install -q . --use-mirrors
-  - pip install -q -r requirements.txt --use-mirrors
+  - pip install -q Django==$DJANGO
+  - python setyp.py -q install
+  - pip install -q -r requirements.txt
 
 script: python manage.py test
