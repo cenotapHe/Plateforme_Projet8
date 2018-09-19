@@ -11,7 +11,7 @@ services:
 env: DJANGO_SETTINGS_MODULE=Plateforme_Projet8.settings.travis
 
 before_script:
- - chmod +x gradlew
+ - chmod +x manage.py
 
 script:
   - ./manage.py test
