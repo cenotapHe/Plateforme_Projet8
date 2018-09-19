@@ -5,10 +5,10 @@ python:
 before_script:
   - pip install -r requirements.txt
 
-env: DJANGO_SETTINGS_MODULE="Plateforme_Projet8.settings.travis"
-
 services:
   - postgresql
 
+env: DJANGO_SETTINGS_MODULE=Plateforme_Projet8.settings.travis
+
 script:
-  - manage.py test
+  - ./manage.py test
