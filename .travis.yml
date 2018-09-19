@@ -7,7 +7,7 @@ env:
 
 install:
   - pip install -q Django==$DJANGO
-  - python setyp.py -q install
+  - python setup.py -q install
   - pip install -q -r requirements.txt
 
 script: python manage.py test
