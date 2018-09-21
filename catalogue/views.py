@@ -192,7 +192,7 @@ def deconnexion(request):
 # Creation of the views listing for the catalogue
 def listing(request):
     # Creation a list on the alphabetical order
-    products_list = Product.objects.filter().order_by('name')
+    products_list = Product.objects.filter().order_by('?')
     # Creation of pagination with only 12 products by page
     paginator = Paginator(products_list, 12)
     page = request.GET.get('page')
@@ -262,7 +262,8 @@ def search(request):
         products = Product.objects.filter(category__name__icontains=query)
 
     message = "Malheureusement nous n'avons trouvé aucun article correspondant à votre requête."
-    link = "https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}&search_simple=1&action=process".format(query)
+    link = "https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}&search_simple=1&action=process".format(
+        query)
     name = "Résultats pour la requête %s" % query
     context = {
         'message': message,
