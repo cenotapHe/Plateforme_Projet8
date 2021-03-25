@@ -13,7 +13,7 @@ openpyxl==2.5.6
 pip-autoremove==0.9.1
 psycopg2==2.7.5
 pytz==2018.5
-PyYAML==3.13
+PyYAML==5.4
 records==0.5.2
 requests==2.19.1
 SQLAlchemy==1.2.11
